@@ -1,194 +1,194 @@
-Ahmedavad-Vadodara 111 2
-Ahmedavad-Godhra 130 2
-Ahmedabad-Surat 278 5 
-Ahmedabad-Rajkot-216 4 
-Ahmedabad-Bhavnagar-200 4 
-Ahmedabad-Jamnagar 308 6 
-Ahmedabad-Gandhinagar 28 1 
-Ahmedabad-Junagadh 334 6.5 
-Ahmedabad-Anand 77 1.5 
-Ahmedabad-Navsari 317 6 
-Ahmedabad-Morbi 244 4.5 
-Ahmedabad-Nadiad 70 1.5 
-Ahmedabad-Surendranagar 129 3 
-Ahmedabad-Bharuch 179 3.5 
-Ahmedabad-Vapi 363 7 
-Ahmedabad-Porbandar 414 8 
-Ahmedabad-Godhra 130 3 
-Ahmedabad-Botad 169 3.5 
-Ahmedabad-Dahod 199 4 
-Ahmedabad-Palanpur 479 9 
-Ahmedabad-Gandhidham 389 7.5 
-Ahmedabad-Patan 375 7.5 
-Ahmedabad-Mehsana 74 1.5 
-Ahmedabad-Bhuj 400 8 
-Ahmedabad-Amreli 375 7.5 
-Ahmedabad-Himatnagar 122 2.5 
-Ahmedabad-Vyara 344 6.5 
-Ahmedabad-Jetpur 240 4.5 
-Ahmedabad-Chhota Udaipur 100 2 
-Ahmedabad-Visnagar 113 2.5 
-Ahmedabad-Navalgund 285 5.5 
-Ahmedabad-Sanand 36 1 
-Ahmedabad-Kheda 40 1 
-Ahmedabad-Palitana 283 5.5 
-Ahmedabad-Kalol 36 1 
-Ahmedabad-Keshod 403 8 
-Ahmedabad-Radhanpur 476 9 
-Ahmedabad-Deesa 362 7
-Rajkot-Gandhinagar 352 7 
-Rajkot-Bhavnagar-199 4 
-Rajkot-Jamnagar 92 2 
-Rajkot-Junagadh 101 2
-Surat-Vadodara-153 3  
-Surat-Rajkot-592 10  
-Surat-Gandhinagar 303 6  
-Surat-Bhavnagar-445 8  
-Surat-Jamnagar 661 12  
-Surat-Junagadh 740 13  
+Ahmedavad-Vadodara 111 2 9:00AM
+Ahmedavad-Godhra 130 2 9:00AM
+Ahmedabad-Surat 278 5 12:00AM
+Ahmedabad-Rajkot 216 4 11:00AM
+Ahmedabad-Bhavnagar 200 4 11:00AM 
+Ahmedabad-Jamnagar 308 6 12:30PM
+Ahmedabad-Gandhinagar 28 1 8:00AM
+Ahmedabad-Junagadh 334 6.5  
+Ahmedabad-Anand 77 1.5  
+Ahmedabad-Navsari 317 6 12:30PM
+Ahmedabad-Morbi 244 4.5  
+Ahmedabad-Nadiad 70 1.5  
+Ahmedabad-Surendranagar 129 3 10:00AM
+Ahmedabad-Bharuch 179 3.5  
+Ahmedabad-Vapi 363 7 01:00PM
+Ahmedabad-Porbandar 414 8 02:00PM 
+Ahmedabad-Godhra 130 3 10:00AM
+Ahmedabad-Botad 169 3.5  
+Ahmedabad-Dahod 199 4 11:00AM
+Ahmedabad-Palanpur 479 9 03:00PM
+Ahmedabad-Gandhidham 389 7.5  
+Ahmedabad-Patan 375 7.5  
+Ahmedabad-Mehsana 74 1.5  
+Ahmedabad-Bhuj 400 8 02:00PM
+Ahmedabad-Amreli 375 7.5  
+Ahmedabad-Himatnagar 122 2.5  
+Ahmedabad-Vyara 344 6.5  
+Ahmedabad-Jetpur 240 4.5  
+Ahmedabad-Chhota Udaipur 100 2 9:00AM
+Ahmedabad-Visnagar 113 2.5  
+Ahmedabad-Navalgund 285 5.5  
+Ahmedabad-Sanand 36 1 8:00AM
+Ahmedabad-Kheda 40 1 8:00AM
+Ahmedabad-Palitana 283 5.5  
+Ahmedabad-Kalol 36 1 8:00AM
+Ahmedabad-Keshod 403 8 02:00PM
+Ahmedabad-Radhanpur 476 9 03:00PM
+Ahmedabad-Deesa 362 7 01:00PM
+Rajkot-Gandhinagar 352 7 01:00PM 
+Rajkot-Bhavnagar 199 4 11:00AM
+Rajkot-Jamnagar 92 2 9:00AM
+Rajkot-Junagadh 101 2 9:00AM
+Surat-Vadodara 153 3 10:00AM
+Surat-Rajkot 592 10 03:00PM
+Surat-Gandhinagar 303 6 12:30PM
+Surat-Bhavnagar 445 8 02:00PM
+Surat-Jamnagar 661 12 07:00PM
+Surat-Junagadh 740 13 07:15PM
 Surat-Porbandar 838 15  
-Surat-Anand 253 5  
-Surat-Nadiad 261 5  
-Surat-Morbi 663 12  
-Surat-Surendranagar 572 10  
-Surat-Godhra 468 9  
-Surat-Palanpur 511 9  
-Surat-Mehsana 425 8  
-Surat-Patan 514 9  
+Surat-Anand 253 5 12:00AM
+Surat-Nadiad 261 5 12:00AM
+Surat-Morbi 663 12 07:00PM
+Surat-Surendranagar 572 10 03:00PM
+Surat-Godhra 468 9 03:00PM
+Surat-Palanpur 511 9 03:00PM
+Surat-Mehsana 425 8 02:00PM
+Surat-Patan 514 9 03:00PM
 Surat-Bhuj 790 14  
-Surat-Valsad 39 1  
-Surat-Navsari 30 1  
-Surat-Ankleshwar 57 1  
+Surat-Valsad 39 1 8:00AM
+Surat-Navsari 30 1 8:00AM
+Surat-Ankleshwar 57 1 8:00AM
 Surat-Bharuch 74 1.5  
-Surat-Dahod 355 7  
+Surat-Dahod 355 7 01:00PM
 Surat-Gandhidham 793 14  
-Surat-Morbi 663 12  
+Surat-Morbi 663 12 07:00PM
 Surat-Veraval 858 16  
 Surat-Amreli 774 14  
-Surat-Palitana 691 13  
-Surat-Kheda 253 5  
-Surat-Rajpipla 203 4  
+Surat-Palitana 691 13 07:15PM
+Surat-Kheda 253 5 12:00AM
+Surat-Rajpipla 203 4 11:00AM
 Surat-Bhuj 790 14  
-Surat-Bhavnagar-445 8  
-Vadodara-Rajkot 222 4  
-Vadodara-Gandhinagar 138 3  
-Vadodara-Bhavnagar-308 6  
-Vadodara-Jamnagar 386 7  
-Vadodara-Junagadh 437 8  
-Vadodara-Porbandar 516 9  
+Surat-Bhavnagar 445 8 02:00PM
+Vadodara-Rajkot 222 4 11:00AM
+Vadodara-Gandhinagar 138 3 10:00AM
+Vadodara-Bhavnagar 308 6 12:30PM
+Vadodara-Jamnagar 386 7 01:00PM
+Vadodara-Junagadh 437 8 02:00PM
+Vadodara-Porbandar 516 9 03:00PM
 Vadodara-Anand 55 1 
 Vadodara-Nadiad 69 1.5  
-Vadodara-Morbi 329 6  
-Vadodara-Surendranagar 279 5  
-Vadodara-Godhra 78 2  
-Vadodara-Palanpur 384 7  
-Vadodara-Mehsana 159 3  
-Vadodara-Patan 229 4  
-Vadodara-Bhuj 597 11  
-Vadodara-Valsad 309 6  
-Vadodara-Navsari 351 7  
-Vadodara-Ankleshwar 92 2  
-Vadodara-Bharuch 111 2  
-Vadodara-Dahod 158 3  
-Vadodara-Gandhidham 646 12  
-Vadodara-Morbi 329 6  
-Vadodara-Veraval 515 9  
-Vadodara-Amreli 416 8  
-Vadodara-Palitana 440 8  
-Vadodara-Kheda 95 2  
-Vadodara-Amreli 416 8  
-Vadodara-Rajpipla 153 3  
-Vadodara-Bhuj 597 11  
-Vadodara-Bhavnagar-308 6  
-Vadodara-Sanand 173 4  
+Vadodara-Morbi 329 6 12:30PM
+Vadodara-Surendranagar 279 5 12:00AM
+Vadodara-Godhra 78 2 9:00AM
+Vadodara-Palanpur 384 7 01:00PM
+Vadodara-Mehsana 159 3 10:00AM
+Vadodara-Patan 229 4 11:00AM
+Vadodara-Bhuj 597 11 05:00PM
+Vadodara-Valsad 309 6 12:30PM
+Vadodara-Navsari 351 7 01:00PM
+Vadodara-Ankleshwar 92 2 9:00AM
+Vadodara-Bharuch 111 2 9:00AM
+Vadodara-Dahod 158 3 10:00AM
+Vadodara-Gandhidham 646 12 07:00PM
+Vadodara-Morbi 329 6 12:30PM
+Vadodara-Veraval 515 9 03:00PM
+Vadodara-Amreli 416 8 02:00PM
+Vadodara-Palitana 440 8 02:00PM
+Vadodara-Kheda 95 2 9:00AM
+Vadodara-Amreli 416 8 02:00PM
+Vadodara-Rajpipla 153 3 10:00AM
+Vadodara-Bhuj 597 11 05:00PM
+Vadodara-Bhavnagar 308 6 12:30PM
+Vadodara-Sanand 173 4 11:00AM
 Vadodara-Dholka 193 4
-Rajkot-Bhavnagar-267 5  
-Rajkot-Gandhinagar 280 6  
-Rajkot-Jamnagar 92 2  
-Rajkot-Junagadh 101 2  
-Rajkot-Porbandar 188 4  
-Rajkot-Anand 375 7  
-Rajkot-Nadiad 390 7  
-Rajkot-Morbi 72 2  
-Rajkot-Surendranagar 222 4  
-Rajkot-Godhra 357 7  
-Rajkot-Palanpur 462 9  
-Rajkot-Mehsana 417 8  
-Rajkot-Patan 372 7  
-Rajkot-Bhuj 380 7  
-Rajkot-Valsad 681 12  
-Rajkot-Navsari 635 11  
-Rajkot-Ankleshwar 573 10  
-Rajkot-Bharuch 562 10  
-Rajkot-Dahod 605 11  
-Rajkot-Gandhidham 290 6  
-Rajkot-Morbi 72 2  
-Rajkot-Veraval 313 6  
-Rajkot-Amreli 212 4  
-Rajkot-Palitana 253 5  
-Rajkot-Kheda 431 8  
-Rajkot-Rajpipla 616 11  
-Rajkot-Bhuj 380 7  
-Rajkot-Bhavnagar-267 5  
-Rajkot-Sanand 276 5  
-Rajkot-Dholka 277 5  
-Gandhinagar-Bhavnagar-245 5 
-Gandhinagar-Jamnagar 360 7 
-Gandhinagar-Junagadh 394 7 
-Gandhinagar-Porbandar 481 9 
-Gandhinagar-Anand 90 2 
-Gandhinagar-Nadiad 62 1.5 
-Gandhinagar-Morbi 303 6 
-Gandhinagar-Surendranagar 203 4 
-Gandhinagar-Godhra 188 4 
-Gandhinagar-Palanpur 309 6 
-Gandhinagar-Mehsana 38 1 
-Gandhinagar-Patan 124 3 
-Gandhinagar-Bhuj 441 8 
-Gandhinagar-Valsad 431 8 
-Gandhinagar-Navsari 385 7 
-Gandhinagar-Ankleshwar 226 4.5 
-Gandhinagar-Bharuch 237 4.5 
-Gandhinagar-Dahod 255 5 
-Gandhinagar-Gandhidham 391 7 
-Gandhinagar-Morbi 303 6 
-Gandhinagar-Veraval 469 9 
-Gandhinagar-Amreli 368 7 
-Gandhinagar-Palitana 392 8 
-Gandhinagar-Kheda 72 2 
-Gandhinagar-Rajpipla 316 6 
-Gandhinagar-Bhuj 441 8 
-Gandhinagar-Bhavnagar-245 5 
-Gandhinagar-Sanand 45 1 
-Gandhinagar-Dholka 45 1
-Bhavnagar-Rajkot 174 4 
-Bhavnagar-Junagadh 191 4 
-Bhavnagar-Porbandar 287 6 
-Bhavnagar-Jamnagar 251 5 
-Bhavnagar-Surendranagar 184 4 
-Bhavnagar-Palitana 59 2 
-Bhavnagar-Diu 215 5 
-Bhavnagar-Amreli 148 3 
-Bhavnagar-Gir Somnath 259 6 
-Bhavnagar-Bhuj 436 8 
-Bhavnagar-Somnath 290 6 
-Bhavnagar-Veraval 277 6 
-Bhavnagar-Dwarka 377 8 
-Bhavnagar-Gandhidham 442 9 
-Bhavnagar-Mandvi 458 9 
-Bhavnagar-Morbi 287 6 
-Bhavnagar-Bhuj 436 8 
-Bhavnagar-Nadiad 227 5 
-Bhavnagar-Mehsana 347 7 
-Bhavnagar-Patan 365 7 
-Bhavnagar-Palanpur 425 8 
-Bhavnagar-Ankleshwar 303 6 
-Bhavnagar-Bharuch 313 6 
-Bhavnagar-Navsari 358 7 
-Bhavnagar-Valsad 404 8 
-Bhavnagar-Saputara 406 8 
-Bhavnagar-Bhuj 436 8 
-Bhavnagar-Dholka 182 4 
-Bhavnagar-Kheda 297 6 
-Bhavnagar-Rajpipla 290 6 
-Bhavnagar-Bhuj 436 8 
+Rajkot-Bhavnagar 267 5 12:00AM
+Rajkot-Gandhinagar 280 6 12:30PM
+Rajkot-Jamnagar 92 2 9:00AM
+Rajkot-Junagadh 101 2 9:00AM
+Rajkot-Porbandar 188 4 11:00AM
+Rajkot-Anand 375 7 01:00PM
+Rajkot-Nadiad 390 7 01:00PM
+Rajkot-Morbi 72 2 9:00AM
+Rajkot-Surendranagar 222 4 11:00AM
+Rajkot-Godhra 357 7 01:00PM
+Rajkot-Palanpur 462 9 03:00PM
+Rajkot-Mehsana 417 8 02:00PM
+Rajkot-Patan 372 7 01:00PM
+Rajkot-Bhuj 380 7 01:00PM
+Rajkot-Valsad 681 12 07:00PM
+Rajkot-Navsari 635 11 05:00PM
+Rajkot-Ankleshwar 573 10 03:00PM
+Rajkot-Bharuch 562 10 03:00PM
+Rajkot-Dahod 605 11 05:00PM
+Rajkot-Gandhidham 290 6 12:30PM
+Rajkot-Morbi 72 2 9:00AM
+Rajkot-Veraval 313 6 12:30PM
+Rajkot-Amreli 212 4 11:00AM
+Rajkot-Palitana 253 5 12:00AM
+Rajkot-Kheda 431 8 02:00PM
+Rajkot-Rajpipla 616 11 05:00PM
+Rajkot-Bhuj 380 7 01:00PM
+Rajkot-Bhavnagar 267 5 12:00AM
+Rajkot-Sanand 276 5 12:00AM
+Rajkot-Dholka 277 5 12:00AM
+Gandhinagar-Bhavnagar-245 5  
+Gandhinagar-Jamnagar 360 7  
+Gandhinagar-Junagadh 394 7  
+Gandhinagar-Porbandar 481 9  
+Gandhinagar-Anand 90 2  
+Gandhinagar-Nadiad 62 1.5  
+Gandhinagar-Morbi 303 6  
+Gandhinagar-Surendranagar 203 4  
+Gandhinagar-Godhra 188 4  
+Gandhinagar-Palanpur 309 6  
+Gandhinagar-Mehsana 38 1  
+Gandhinagar-Patan 124 3  
+Gandhinagar-Bhuj 441 8  
+Gandhinagar-Valsad 431 8  
+Gandhinagar-Navsari 385 7  
+Gandhinagar-Ankleshwar 226 4.5  
+Gandhinagar-Bharuch 237 4.5  
+Gandhinagar-Dahod 255 5  
+Gandhinagar-Gandhidham 391 7  
+Gandhinagar-Morbi 303 6  
+Gandhinagar-Veraval 469 9  
+Gandhinagar-Amreli 368 7  
+Gandhinagar-Palitana 392 8  
+Gandhinagar-Kheda 72 2  
+Gandhinagar-Rajpipla 316 6  
+Gandhinagar-Bhuj 441 8  
+Gandhinagar-Bhavnagar-245 5  
+Gandhinagar-Sanand 45 1  
+Gandhinagar-Dholka 45 1  
+Bhavnagar-Rajkot 174 4  
+Bhavnagar-Junagadh 191 4  
+Bhavnagar-Porbandar 287 6  
+Bhavnagar-Jamnagar 251 5  
+Bhavnagar-Surendranagar 184 4  
+Bhavnagar-Palitana 59 2  
+Bhavnagar-Diu 215 5  
+Bhavnagar-Amreli 148 3  
+Bhavnagar-Gir Somnath 259 6  
+Bhavnagar-Bhuj 436 8  
+Bhavnagar-Somnath 290 6  
+Bhavnagar-Veraval 277 6  
+Bhavnagar-Dwarka 377 8  
+Bhavnagar-Gandhidham 442 9  
+Bhavnagar-Mandvi 458 9  
+Bhavnagar-Morbi 287 6  
+Bhavnagar-Bhuj 436 8  
+Bhavnagar-Nadiad 227 5  
+Bhavnagar-Mehsana 347 7  
+Bhavnagar-Patan 365 7  
+Bhavnagar-Palanpur 425 8  
+Bhavnagar-Ankleshwar 303 6  
+Bhavnagar-Bharuch 313 6  
+Bhavnagar-Navsari 358 7  
+Bhavnagar-Valsad 404 8  
+Bhavnagar-Saputara 406 8  
+Bhavnagar-Bhuj 436 8  
+Bhavnagar-Dholka 182 4  
+Bhavnagar-Kheda 297 6  
+Bhavnagar-Rajpipla 290 6  
+Bhavnagar-Bhuj 436 8  
