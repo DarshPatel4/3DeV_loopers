@@ -30,13 +30,13 @@ class Passanger_Data{
      }
      void putdata(){
         ofstream detail("hello.txt");
-        for (int i = 0; i < 32; i++)
+        for (int i = 0; i < 45; i++)
         {
             detail<<"*";
         }
         detail << endl;
         detail<< "Gujarat Railway Private Limited"<<endl;
-        for (int i = 0; i < 32; i++)
+        for (int i = 0; i < 45; i++)
         {
             detail<<"*";
         }
@@ -48,17 +48,16 @@ class Passanger_Data{
      }
       static void showpnrnumber()
      {
-        ofstream hhh("hello.txt",ios::app);
-        for(int j=0;j<32;j++)
-        {
-            hhh<<"*";
-        }
-        hhh<<endl;
-        hhh<<"PNR NO:"<<pnr_number<<endl;
+        ofstream pnr_details("hello.txt",ios::app);
+        pnr_details<<endl;
+        pnr_details<<"PNR NO:"<<pnr_number<<endl;
         pnr_number++;
+        for(int j=0;j<45;j++)
+        {
+            pnr_details<<"*";
+        }
      }
      
-
 };
 // Function to calculate fare based on distance
 float calculateFare(int distance) {
@@ -93,13 +92,15 @@ int main()
         cout << "Distance is :"<<distance<< endl;
         readlist >> time;
         cout << "Time : " << time << "hours"<< endl;
+        cout << "Fare: Rs. " << calculateFare(distance) << endl;
         readlist.close();
     }
    }
-
-    // Display result
-        //cout << "Distance: " << distance << " km" << endl;
-        //cout << "Time to reach: " << time << " hours" << endl;
         cout << "Fare: Rs. " << calculateFare(distance) << endl;
-        
+
 }
+
+
+
+
+

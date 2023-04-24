@@ -1,8 +1,8 @@
-Ahmedavad-Vadodara-111 2
+Ahmedavad-Vadodara 111 2
 Ahmedavad-Godhra 130 2
 Ahmedabad-Surat 278 5 
 Ahmedabad-Rajkot-216 4 
-Ahmedabad-Bhavnagar 200 4 
+Ahmedabad-Bhavnagar-200 4 
 Ahmedabad-Jamnagar 308 6 
 Ahmedabad-Gandhinagar 28 1 
 Ahmedabad-Junagadh 334 6.5 
@@ -37,13 +37,13 @@ Ahmedabad-Keshod 403 8
 Ahmedabad-Radhanpur 476 9 
 Ahmedabad-Deesa 362 7
 Rajkot-Gandhinagar 352 7 
-Rajkot-Bhavnagar 199 4 
+Rajkot-Bhavnagar-199 4 
 Rajkot-Jamnagar 92 2 
 Rajkot-Junagadh 101 2
 Surat-Vadodara-153 3  
 Surat-Rajkot-592 10  
 Surat-Gandhinagar 303 6  
-Surat-Bhavnagar 445 8  
+Surat-Bhavnagar-445 8  
 Surat-Jamnagar 661 12  
 Surat-Junagadh 740 13  
 Surat-Porbandar 838 15  
@@ -69,10 +69,10 @@ Surat-Palitana 691 13
 Surat-Kheda 253 5  
 Surat-Rajpipla 203 4  
 Surat-Bhuj 790 14  
-Surat-Bhavnagar 445 8  
+Surat-Bhavnagar-445 8  
 Vadodara-Rajkot 222 4  
 Vadodara-Gandhinagar 138 3  
-Vadodara-Bhavnagar 308 6  
+Vadodara-Bhavnagar-308 6  
 Vadodara-Jamnagar 386 7  
 Vadodara-Junagadh 437 8  
 Vadodara-Porbandar 516 9  
@@ -99,10 +99,10 @@ Vadodara-Kheda 95 2
 Vadodara-Amreli 416 8  
 Vadodara-Rajpipla 153 3  
 Vadodara-Bhuj 597 11  
-Vadodara-Bhavnagar 308 6  
+Vadodara-Bhavnagar-308 6  
 Vadodara-Sanand 173 4  
 Vadodara-Dholka 193 4
-Rajkot-Bhavnagar 267 5  
+Rajkot-Bhavnagar-267 5  
 Rajkot-Gandhinagar 280 6  
 Rajkot-Jamnagar 92 2  
 Rajkot-Junagadh 101 2  
@@ -129,10 +129,10 @@ Rajkot-Palitana 253 5
 Rajkot-Kheda 431 8  
 Rajkot-Rajpipla 616 11  
 Rajkot-Bhuj 380 7  
-Rajkot-Bhavnagar 267 5  
+Rajkot-Bhavnagar-267 5  
 Rajkot-Sanand 276 5  
 Rajkot-Dholka 277 5  
-Gandhinagar-Bhavnagar 245 5 
+Gandhinagar-Bhavnagar-245 5 
 Gandhinagar-Jamnagar 360 7 
 Gandhinagar-Junagadh 394 7 
 Gandhinagar-Porbandar 481 9 
@@ -158,37 +158,37 @@ Gandhinagar-Palitana 392 8
 Gandhinagar-Kheda 72 2 
 Gandhinagar-Rajpipla 316 6 
 Gandhinagar-Bhuj 441 8 
-Gandhinagar-Bhavnagar 245 5 
+Gandhinagar-Bhavnagar-245 5 
 Gandhinagar-Sanand 45 1 
 Gandhinagar-Dholka 45 1
-Bhavnagar Rajkot 174 4 
-Bhavnagar Junagadh 191 4 
-Bhavnagar Porbandar 287 6 
-Bhavnagar Jamnagar 251 5 
-Bhavnagar Surendranagar 184 4 
-Bhavnagar Palitana 59 2 
-Bhavnagar Diu 215 5 
-Bhavnagar Amreli 148 3 
-Bhavnagar Gir Somnath 259 6 
-Bhavnagar Bhuj 436 8 
-Bhavnagar Somnath 290 6 
-Bhavnagar Veraval 277 6 
-Bhavnagar Dwarka 377 8 
-Bhavnagar Gandhidham 442 9 
-Bhavnagar Mandvi 458 9 
-Bhavnagar Morbi 287 6 
-Bhavnagar Bhuj 436 8 
-Bhavnagar Nadiad 227 5 
-Bhavnagar Mehsana 347 7 
-Bhavnagar Patan 365 7 
-Bhavnagar Palanpur 425 8 
-Bhavnagar Ankleshwar 303 6 
-Bhavnagar Bharuch 313 6 
-Bhavnagar Navsari 358 7 
-Bhavnagar Valsad 404 8 
-Bhavnagar Saputara 406 8 
-Bhavnagar Bhuj 436 8 
-Bhavnagar Dholka 182 4 
-Bhavnagar Kheda 297 6 
-Bhavnagar Rajpipla 290 6 
-Bhavnagar Bhuj 436 8 
+Bhavnagar-Rajkot 174 4 
+Bhavnagar-Junagadh 191 4 
+Bhavnagar-Porbandar 287 6 
+Bhavnagar-Jamnagar 251 5 
+Bhavnagar-Surendranagar 184 4 
+Bhavnagar-Palitana 59 2 
+Bhavnagar-Diu 215 5 
+Bhavnagar-Amreli 148 3 
+Bhavnagar-Gir Somnath 259 6 
+Bhavnagar-Bhuj 436 8 
+Bhavnagar-Somnath 290 6 
+Bhavnagar-Veraval 277 6 
+Bhavnagar-Dwarka 377 8 
+Bhavnagar-Gandhidham 442 9 
+Bhavnagar-Mandvi 458 9 
+Bhavnagar-Morbi 287 6 
+Bhavnagar-Bhuj 436 8 
+Bhavnagar-Nadiad 227 5 
+Bhavnagar-Mehsana 347 7 
+Bhavnagar-Patan 365 7 
+Bhavnagar-Palanpur 425 8 
+Bhavnagar-Ankleshwar 303 6 
+Bhavnagar-Bharuch 313 6 
+Bhavnagar-Navsari 358 7 
+Bhavnagar-Valsad 404 8 
+Bhavnagar-Saputara 406 8 
+Bhavnagar-Bhuj 436 8 
+Bhavnagar-Dholka 182 4 
+Bhavnagar-Kheda 297 6 
+Bhavnagar-Rajpipla 290 6 
+Bhavnagar-Bhuj 436 8 
