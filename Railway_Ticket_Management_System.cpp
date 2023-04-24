@@ -101,4 +101,5 @@ int main()
         //cout << "Distance: " << distance << " km" << endl;
         //cout << "Time to reach: " << time << " hours" << endl;
         cout << "Fare: Rs. " << calculateFare(distance) << endl;
+        
 }
