@@ -39,6 +39,7 @@ class Passanger_Data{
         cout<<"press \"6\" for \"2 tire sleeper class\""<<endl;
         cout<<"press \"7\" for \"3 tire sleeper class\""<<endl;
         cin>>train_class;
+        
         switch(train_class)
         {
             case 1:
