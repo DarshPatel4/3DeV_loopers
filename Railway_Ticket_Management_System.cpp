@@ -14,14 +14,14 @@ class Passanger_Data{
     public:
     string name,gender;
     long long int mobile_number;
-    int age,date,train_class,m=0,f=0,o=0;
+    int age,date,train_class;;
     static long int pnr_number;
     void getdata()
      {
         static long int pnr_number;
        
         cout<<"Name (fristname middlename surname) : "<<endl;
-        getline(cin>>ws, name);
+        getline(cin, name);
         cout<<"Mobile number:"<<endl;
         cin>>mobile_number;
         cout<<"Gender (Male/Female/Other) : "<<endl;
@@ -95,36 +95,9 @@ class Passanger_Data{
         detail<<"Name : "<<name<<endl;
         detail<<"Mobile number : "<<mobile_number<<endl;
         detail<<"Gender : "<<gender<<endl;
-        detail.close();
-     }
-        void number_gender()
-        {
-           if(gender=="male"||"Male")
-           {
-               m++;
-           }
-           else if(gender=="female"||"Female"){
-            f++;
-           }
-           else if (gender=="Other"||"other")
-           {
-            o++;
-           }
-           
-     }
-     void printstatic_data()
-     {
-        ofstream detail("hello.txt");
-       
-        cout<<"Male   : "<<m<<endl;
-        cout<<"Female : "<<f<<endl;
-        cout<<"Other : "<<o<<endl;
         detail<<"Age : "<<age<<endl;
         detail<<"date of journey:"<<date<<endl;
-        detail.close();
-        
      }
- 
 
       static void showpnrnumber()
      {
@@ -152,31 +125,6 @@ long int Passanger_Data :: pnr_number=301618087;
 int main()
 
  {
-    int passenger_number;
-    cout<<"how many passanger "<<endl;
-    cin>>passenger_number;
-    Passanger_Data t1[passenger_number],t2;
-    for(int i=1;i<=passenger_number;i++)
-    {
-        cout<<"Enter passanger "<<i<<"'s details : "<<endl;
-        t1[i].getdata();
-        t1[i].number_gender();
-
-    }
-    for(int i=1;i<=passenger_number;i++)
-    {
-         for(int j=0;j<50;j++)
-        {
-            cout<<"-";
-        }
-        cout<<endl;
-        cout<<"passanger no:"<<i<<endl;
-        t1[i].showpnrnumber();
-        t1[i].putdata();
-    }
-    t2.printstatic_data();
-
-
     string departToDestiny;
     string list,match_city;
     
