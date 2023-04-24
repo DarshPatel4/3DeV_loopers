@@ -138,7 +138,7 @@ int main()
     cin >> departToDestiny;
 
     fstream readlist;
-    int distance,time,w=0;
+    int distance,time,Train_time,w=0;
     readlist.open("city_data.txt");
     while(readlist>>match_city)
    {
@@ -148,6 +148,8 @@ int main()
         cout << "Distance is :"<<distance<< endl;
         readlist >> time;
         cout << "Time : " << time << "hours"<< endl;
+        readlist>> Train_time;
+        cout << "Train time : "<<Train_time<< ":00 PM"<<endl;
         string quota;
         cout<<"select your quota \"general/tatkal\"";
         cin>>quota;
