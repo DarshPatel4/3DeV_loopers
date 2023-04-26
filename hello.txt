@@ -1,0 +1,18 @@
+
+Date:21/02/1221
+Day:Monday
+
+****************************************************************************
+*                             GUJRAT RAILWAY                               *
+****************************************************************************
+*                              TRAIN TICKET                                *
+****************************************************************************
+Passenger Name     :asa                      
+Phone number       :25467365       				Departure City     :Vadodara       
+Destination City   :Godhra         				Distance           :78 Km
+Time               :2 Hr           				Journey Date       :31             
+Journey Time       :2              				Age                :32             
+Gender             :male           
+						Your final price is :54.6Rs
+***************************************************************************
+
