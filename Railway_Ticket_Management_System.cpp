@@ -19,7 +19,6 @@ class Passanger_Data{
      {
         static long int pnr_number;
        
-        cout<<"\t\tWelcome to Indian Railway Service\t\t "<<endl;
         cout<<"Name (firstname middlename surname) : "<<endl;
         getline(cin, name);
         cout<<"Mobile number:"<<endl;
@@ -87,7 +86,7 @@ class Passanger_Data{
             detail<<"*";
         }
         detail << endl;
-        detail<< "\t\tIndian Railway Limited\t\t"<<endl;
+        detail<< "Gujarat Railway Private Limited"<<endl;
         for (int i = 0; i < 45; i++)
         {
             detail<<"*";
@@ -135,7 +134,7 @@ int main()
     //D.showpnrnumber();
 
     // Get departure city name from user
-    cout << "Enter departure to destination city: ";
+    cout << "Enter departure to destination city(ie., Departure-Destination): ";
     cin >> departToDestiny;
 
     fstream readlist;
