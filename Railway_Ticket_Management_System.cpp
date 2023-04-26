@@ -81,7 +81,7 @@ class Passanger_Data{
      void seat()
     {
     reenter:
-    cout<<"Enter the seat number: ";
+    cout<<"Enter the seat number : ";
     cin>>seat_no; 
     fstream seatcheak;
     int check;
@@ -89,11 +89,11 @@ class Passanger_Data{
     while(seatcheak>>check)
     {
         if(check==seat_no){
-            cout<<"This seat is already booked"<<endl;
+            cout<<"This seat is already booked."<<endl;
             goto reenter;
         }
     }
-    cout<<"seat is allocated"<<endl;
+    cout<<"Your choice seat is allocated to you."<<endl;
 
     fstream seatnumber;
     seatnumber.open("seatnumber.txt",ios::app);
@@ -101,7 +101,7 @@ class Passanger_Data{
     seatnumber.close();
     }
      void putdata(){
-        ofstream detail("hello.txt");
+        ofstream detail("hello.txt",ios::app);
         string quota;
         for (int i = 0; i < 62; i++)
         {
@@ -158,7 +158,6 @@ int main()
     
     Passanger_Data D;
     D.getdata();
-    D.seat();
     D.showpnrnumber();
     D.putdata();
 
@@ -189,64 +188,11 @@ int main()
                 cout << "Fare: Rs. " << calculateFare(distance) << endl;
         }
         w++;
+        D.seat();
         readlist.close();
     }
    }
-if(w==0){
+    if(w==0){
     cout << "No train is available for this route."<< endl;
-}
-
-}
-
-
-
-/*
-void seat()
-    {
-    reenter:
-    cout<<"Enter the seat number: ";
-    cin>>seat_no; 
-    fstream seatcheak;
-    seatcheak.open("seatnumber.txt");
-    while(seatcheak>>cheak)
-    {
-        if(cheak==seat_no){
-            cout<<"seat is already booked"<<endl;
-            goto reenter;
-        }
     }
-    cout<<"seat is allocated"<<endl;
-
-    fstream seatnumber;
-    seatnumber.open("seatnumber.txt",ios::app);
-    seatnumber<<" "<<seat_no;
-    seatnumber.close();
-    }
-
-
-    void print_file()
-    {
- fstream out;
- out.open("customer_detail.txt",ios::app);
-            out << "****************************************************************************" << endl;
-            out << "*                             GUJRAT RAILWAY                               *" << endl;
-            out << "****************************************************************************" << endl;
-            out << "*                              TRAIN TICKET                                *" << endl;
-            out << "****************************************************************************" << endl;
-            out <<"Passenger Name "<<"    :"<<left<<setw(25)<<passenger_name<<endl;
-            out << "Phone number   "<<"    :"<<setw(15)<<phonenumber;
-            out << "\t\t\t\tDeparture City "<<"    :"<<setw(15)<<from<<endl;
-            out << "Destination City "<<"  :"<<setw(15)<<to;
-            out << "\t\t\t\tDistance"<<"           :"<<setw(3)<<distance<<"Km"<<endl;
-            out << "Time"<<"               :"<<setw(2)<<time<<"Hr           ";    
-            out << "\t\t\t\tJourney Date "<<"      :"<<setw(15)<<journey_date<<endl;
-            out << "Journey Time "<<"      :"<<setw(15)<<time;
-            out << "\t\t\t\tAge"<<"                :"<<setw(15)<<age<< endl;
-            out << "Gender"<<"             :"<<setw(15)<<gender<<endl;
-            // out << "  Seat Number "<<"       :"<<seat_no << endl<<endl;
-            out<<"\t\t\t\t\t\tYour final price is"<<" :"<<total_amount<<"Rs"<<endl;
-            out << "***************************************************************************"<<endl<<endl;
-       }        
-
-
-*/
+}
