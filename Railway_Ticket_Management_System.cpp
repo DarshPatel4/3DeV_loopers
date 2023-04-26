@@ -20,6 +20,7 @@ class Passanger_Data{
      {
         static long int pnr_number;
        
+        cout<<"\t\tWelcome to Indian Railway Service\t\t "<<endl;
         cout<<"Name (firstname middlename surname) : "<<endl;
         getline(cin, name);
         cout<<"Mobile number:"<<endl;
@@ -86,7 +87,7 @@ class Passanger_Data{
             detail<<"*";
         }
         detail << endl;
-        detail<< "Gujarat Railway Private Limited"<<endl;
+        detail<< "\t\tIndian Railway Limited\t\t"<<endl;
         for (int i = 0; i < 45; i++)
         {
             detail<<"*";
