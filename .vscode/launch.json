@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "p:/3DeV_loopers/3DeV_loopers",
-      "program": "p:/3DeV_loopers/3DeV_loopers/build/Debug/outDebug",
+      "cwd": "c:/Users/sutsa/OneDrive/Desktop/3devdevelopers/3DeV_loopers/3DeV_loopers",
+      "program": "c:/Users/sutsa/OneDrive/Desktop/3devdevelopers/3DeV_loopers/3DeV_loopers/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
