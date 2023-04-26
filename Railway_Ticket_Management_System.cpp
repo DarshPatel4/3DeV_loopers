@@ -13,7 +13,7 @@ class Passanger_Data{
     public:
     string name,gender;
     long long int mobile_number;
-    int age,date,train_class;;
+    int age,date,train_class,seat_no;
     static long int pnr_number;
     void getdata()
      {
@@ -78,6 +78,28 @@ class Passanger_Data{
             }
         }
      }
+     void seat()
+    {
+    reenter:
+    cout<<"Enter the seat number: ";
+    cin>>seat_no; 
+    fstream seatcheak;
+    int check;
+    seatcheak.open("seatnumber.txt");
+    while(seatcheak>>check)
+    {
+        if(check==seat_no){
+            cout<<"seat is already booked"<<endl;
+            goto reenter;
+        }
+    }
+    cout<<"seat is allocated"<<endl;
+
+    fstream seatnumber;
+    seatnumber.open("seatnumber.txt",ios::app);
+    seatnumber<<" "<<seat_no;
+    seatnumber.close();
+    }
      void putdata(){
         ofstream detail("hello.txt");
         string quota;
@@ -86,7 +108,12 @@ class Passanger_Data{
             detail<<"*";
         }
         detail << endl;
-        detail<< "Gujarat Railway Private Limited"<<endl;
+        detail<<"*                             GUJRAT RAILWAY                               *" << endl;
+        for (int i = 0; i < 45; i++)
+        {
+            detail<<"*";
+        }
+        detail << "*                              TRAIN TICKET                                *" << endl;
         for (int i = 0; i < 45; i++)
         {
             detail<<"*";
@@ -147,7 +174,7 @@ int main()
         readlist >> distance;
         cout << "Distance is :"<<distance<< endl;
         readlist >> time;
-        cout << "Time : " << time << "hours"<< endl;
+        cout << "Time : " << time << " hours"<< endl;
         readlist>> Train_time;
         cout << "Train time : "<<Train_time<< ":00 PM"<<endl;
         string quota;
@@ -167,3 +194,56 @@ if(w==0){
 }
 
 }
+
+
+
+/*
+void seat()
+    {
+    reenter:
+    cout<<"Enter the seat number: ";
+    cin>>seat_no; 
+    fstream seatcheak;
+    seatcheak.open("seatnumber.txt");
+    while(seatcheak>>cheak)
+    {
+        if(cheak==seat_no){
+            cout<<"seat is already booked"<<endl;
+            goto reenter;
+        }
+    }
+    cout<<"seat is allocated"<<endl;
+
+    fstream seatnumber;
+    seatnumber.open("seatnumber.txt",ios::app);
+    seatnumber<<" "<<seat_no;
+    seatnumber.close();
+    }
+
+
+    void print_file()
+    {
+ fstream out;
+ out.open("customer_detail.txt",ios::app);
+            out << "****************************************************************************" << endl;
+            out << "*                             GUJRAT RAILWAY                               *" << endl;
+            out << "****************************************************************************" << endl;
+            out << "*                              TRAIN TICKET                                *" << endl;
+            out << "****************************************************************************" << endl;
+            out <<"Passenger Name "<<"    :"<<left<<setw(25)<<passenger_name<<endl;
+            out << "Phone number   "<<"    :"<<setw(15)<<phonenumber;
+            out << "\t\t\t\tDeparture City "<<"    :"<<setw(15)<<from<<endl;
+            out << "Destination City "<<"  :"<<setw(15)<<to;
+            out << "\t\t\t\tDistance"<<"           :"<<setw(3)<<distance<<"Km"<<endl;
+            out << "Time"<<"               :"<<setw(2)<<time<<"Hr           ";    
+            out << "\t\t\t\tJourney Date "<<"      :"<<setw(15)<<journey_date<<endl;
+            out << "Journey Time "<<"      :"<<setw(15)<<time;
+            out << "\t\t\t\tAge"<<"                :"<<setw(15)<<age<< endl;
+            out << "Gender"<<"             :"<<setw(15)<<gender<<endl;
+            // out << "  Seat Number "<<"       :"<<seat_no << endl<<endl;
+            out<<"\t\t\t\t\t\tYour final price is"<<" :"<<total_amount<<"Rs"<<endl;
+            out << "***************************************************************************"<<endl<<endl;
+       }        
+
+
+*/
