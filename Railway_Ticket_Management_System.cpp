@@ -20,7 +20,7 @@ class Passanger_Data{
      {
         static long int pnr_number;
        
-        cout<<"Name (fristname middlename surname) : "<<endl;
+        cout<<"Name (firstname middlename surname) : "<<endl;
         getline(cin, name);
         cout<<"Mobile number:"<<endl;
         cin>>mobile_number;
@@ -167,4 +167,3 @@ if(w==0){
 }
 
 }
-

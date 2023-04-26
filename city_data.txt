@@ -1,42 +1,42 @@
-Ahmedabad-Vadodara 111 2 9 
+Ahmedabad-Vadodara 111 092 9 
 Ahmedabad-Godhra 130 2 9 
 Ahmedabad-Surat 278 5 12 
-Ahmedabad-Rajkot 216 4 11 
-Ahmedabad-Bhavnagar 200 4 11  
+Ahmedabad-Rajkot 216 4 11 09
+Ahmedabad-Bhavnagar 200 4 11
 Ahmedabad-Jamnagar 308 6 12:30PM
 Ahmedabad-Gandhinagar 28 1 8 
-Ahmedabad-Junagadh 334 6.5  
-Ahmedabad-Anand 77 1.5  
+Ahmedabad-Junagadh 334 6.5 9
+Ahmedabad-Anand 77 1.5 9
 Ahmedabad-Navsari 317 6 12:30PM
-Ahmedabad-Morbi 244 4.5  
-Ahmedabad-Nadiad 70 1.5  
+Ahmedabad-Morbi 244 4.5 9
+Ahmedabad-Nadiad 70 1.5 9
 Ahmedabad-Surendranagar 129 3 10 
-Ahmedabad-Bharuch 179 3.5  
+Ahmedabad-Bharuch 179 3.5 9
 Ahmedabad-Vapi 363 7 01 
-Ahmedabad-Porbandar 414 8 02  
+Ahmedabad-Porbandar 414 8 12
 Ahmedabad-Godhra 130 3 10 
-Ahmedabad-Botad 169 3.5  
-Ahmedabad-Dahod 199 4 11 
+Ahmedabad-Botad 169 3.5 9
+Ahmedabad-Dahod 199 4 11 09
 Ahmedabad-Palanpur 479 9 03 
-Ahmedabad-Gandhidham 389 7.5  
-Ahmedabad-Patan 375 7.5  
-Ahmedabad-Mehsana 74 1.5  
+Ahmedabad-Gandhidham 389 7.5 9
+Ahmedabad-Patan 375 7.5 9
+Ahmedabad-Mehsana 74 1.5 9
 Ahmedabad-Bhuj 400 8 02 
-Ahmedabad-Amreli 375 7.5  
-Ahmedabad-Himatnagar 122 2.5  
-Ahmedabad-Vyara 344 6.5  
-Ahmedabad-Jetpur 240 4.5  
+Ahmedabad-Amreli 375 7.5 9
+Ahmedabad-Himatnagar 122 2.5 9
+Ahmedabad-Vyara 344 6.5 9
+Ahmedabad-Jetpur 240 4.5 9
 Ahmedabad-Chhota Udaipur 100 2 9 
-Ahmedabad-Visnagar 113 2.5  
-Ahmedabad-Navalgund 285 5.5  
+Ahmedabad-Visnagar 113 2.5 9
+Ahmedabad-Navalgund 285 5.5 9
 Ahmedabad-Sanand 36 1 8 
 Ahmedabad-Kheda 40 1 8 
-Ahmedabad-Palitana 283 5.5  
+Ahmedabad-Palitana 283 5.5 9
 Ahmedabad-Kalol 36 1 8 
 Ahmedabad-Keshod 403 8 02 
 Ahmedabad-Radhanpur 476 9 03 
 Ahmedabad-Deesa 362 7 01 
-Rajkot-Gandhinagar 352 7 01  
+Rajkot-Gandhinagar 352 7 01 
 Rajkot-Bhavnagar 199 4 11 
 Rajkot-Jamnagar 92 2 9 
 Rajkot-Junagadh 101 2 9 
@@ -46,49 +46,49 @@ Surat-Gandhinagar 303 6 12:30PM
 Surat-Bhavnagar 445 8 02 
 Surat-Jamnagar 661 12 07 
 Surat-Junagadh 740 13 07:15PM
-Surat-Porbandar 838 15  
+Surat-Porbandar 838 15 9
 Surat-Anand 253 5 12 
 Surat-Nadiad 261 5 12 
 Surat-Morbi 663 12 07 
 Surat-Surendranagar 572 10 03 
 Surat-Godhra 468 9 03 
-Surat-Palanpur 511 9 03 
+Surat-Palanpur 511 099 03 
 Surat-Mehsana 425 8 02 
 Surat-Patan 514 9 03 
-Surat-Bhuj 790 14  
+Surat-Bhuj 790 14 02
 Surat-Valsad 39 1 8 
 Surat-Navsari 30 1 8 
 Surat-Ankleshwar 57 1 8 
-Surat-Bharuch 74 1.5  
+Surat-Bharuch 74 1.5 9
 Surat-Dahod 355 7 01 
-Surat-Gandhidham 793 14  
+Surat-Gandhidham 793 14 02
 Surat-Morbi 663 12 07 
-Surat-Veraval 858 16  
-Surat-Amreli 774 14  
+Surat-Veraval 858 16 10
+Surat-Amreli 774 14 02
 Surat-Palitana 691 13 07:15PM
 Surat-Kheda 253 5 12 
-Surat-Rajpipla 203 4 11 
-Surat-Bhuj 790 14  
+Surat-Rajpipla 203 4 11 09
+Surat-Bhuj 790 14 02
 Surat-Bhavnagar 445 8 02 
-Vadodara-Rajkot 222 4 11 
+Vadodara-Rajkot 222 4 11 09
 Vadodara-Gandhinagar 138 3 10 
 Vadodara-Bhavnagar 308 6 12:30PM
 Vadodara-Jamnagar 386 7 01 
 Vadodara-Junagadh 437 8 02 
 Vadodara-Porbandar 516 9 03 
 Vadodara-Anand 55 1 
-Vadodara-Nadiad 69 1.5  
+Vadodara-Nadiad 69 1.5 9
 Vadodara-Morbi 329 6 12:30PM
 Vadodara-Surendranagar 279 5 12 
 Vadodara-Godhra 78 2 9 
 Vadodara-Palanpur 384 7 01 
 Vadodara-Mehsana 159 3 10 
-Vadodara-Patan 229 4 11 
+Vadodara-Patan 229 4 11 09
 Vadodara-Bhuj 597 11 05 
 Vadodara-Valsad 309 6 12:30PM
 Vadodara-Navsari 351 7 01 
 Vadodara-Ankleshwar 92 2 9 
-Vadodara-Bharuch 111 2 9 
+Vadodara-Bharuch 111 092 9 
 Vadodara-Dahod 158 3 10 
 Vadodara-Gandhidham 646 12 07 
 Vadodara-Morbi 329 6 12:30PM
@@ -100,31 +100,31 @@ Vadodara-Amreli 416 8 02
 Vadodara-Rajpipla 153 3 10 
 Vadodara-Bhuj 597 11 05 
 Vadodara-Bhavnagar 308 6 12:30PM
-Vadodara-Sanand 173 4 11 
+Vadodara-Sanand 173 4 11 09
 Vadodara-Dholka 193 4
 Rajkot-Bhavnagar 267 5 12 
 Rajkot-Gandhinagar 280 6 12:30PM
 Rajkot-Jamnagar 92 2 9 
 Rajkot-Junagadh 101 2 9 
-Rajkot-Porbandar 188 4 11 
+Rajkot-Porbandar 188 4 11 09
 Rajkot-Anand 375 7 01 
 Rajkot-Nadiad 390 7 01 
 Rajkot-Morbi 72 2 9 
-Rajkot-Surendranagar 222 4 11 
+Rajkot-Surendranagar 222 4 11 09
 Rajkot-Godhra 357 7 01 
 Rajkot-Palanpur 462 9 03 
 Rajkot-Mehsana 417 8 02 
 Rajkot-Patan 372 7 01 
 Rajkot-Bhuj 380 7 01 
 Rajkot-Valsad 681 12 07 
-Rajkot-Navsari 635 11 05 
+Rajkot-Navsari 635 11 0905 
 Rajkot-Ankleshwar 573 10 03 
 Rajkot-Bharuch 562 10 03 
-Rajkot-Dahod 605 11 05 
+Rajkot-Dahod 605 11 0905 
 Rajkot-Gandhidham 290 6 12:30PM
 Rajkot-Morbi 72 2 9 
 Rajkot-Veraval 313 6 12:30PM
-Rajkot-Amreli 212 4 11 
+Rajkot-Amreli 212 4 11 09
 Rajkot-Palitana 253 5 12 
 Rajkot-Kheda 431 8 02 
 Rajkot-Rajpipla 616 11 05 
@@ -132,63 +132,192 @@ Rajkot-Bhuj 380 7 01
 Rajkot-Bhavnagar 267 5 12 
 Rajkot-Sanand 276 5 12 
 Rajkot-Dholka 277 5 12 
-Gandhinagar-Bhavnagar-245 5  
-Gandhinagar-Jamnagar 360 7  
-Gandhinagar-Junagadh 394 7  
-Gandhinagar-Porbandar 481 9  
-Gandhinagar-Anand 90 2  
-Gandhinagar-Nadiad 62 1.5  
-Gandhinagar-Morbi 303 6  
-Gandhinagar-Surendranagar 203 4  
-Gandhinagar-Godhra 188 4  
-Gandhinagar-Palanpur 309 6  
-Gandhinagar-Mehsana 38 1  
-Gandhinagar-Patan 124 3  
-Gandhinagar-Bhuj 441 8  
-Gandhinagar-Valsad 431 8  
-Gandhinagar-Navsari 385 7  
-Gandhinagar-Ankleshwar 226 4.5  
-Gandhinagar-Bharuch 237 4.5  
-Gandhinagar-Dahod 255 5  
-Gandhinagar-Gandhidham 391 7  
-Gandhinagar-Morbi 303 6  
-Gandhinagar-Veraval 469 9  
-Gandhinagar-Amreli 368 7  
-Gandhinagar-Palitana 392 8  
-Gandhinagar-Kheda 72 2  
-Gandhinagar-Rajpipla 316 6  
-Gandhinagar-Bhuj 441 8  
-Gandhinagar-Bhavnagar-245 5  
-Gandhinagar-Sanand 45 1  
-Gandhinagar-Dholka 45 1  
-Bhavnagar-Rajkot 174 4  
-Bhavnagar-Junagadh 191 4  
-Bhavnagar-Porbandar 287 6  
-Bhavnagar-Jamnagar 251 5  
-Bhavnagar-Surendranagar 184 4  
-Bhavnagar-Palitana 59 2  
-Bhavnagar-Diu 215 5  
-Bhavnagar-Amreli 148 3  
-Bhavnagar-Gir Somnath 259 6  
-Bhavnagar-Bhuj 436 8  
-Bhavnagar-Somnath 290 6  
-Bhavnagar-Veraval 277 6  
-Bhavnagar-Dwarka 377 8  
-Bhavnagar-Gandhidham 442 9  
-Bhavnagar-Mandvi 458 9  
-Bhavnagar-Morbi 287 6  
-Bhavnagar-Bhuj 436 8  
-Bhavnagar-Nadiad 227 5  
-Bhavnagar-Mehsana 347 7  
-Bhavnagar-Patan 365 7  
-Bhavnagar-Palanpur 425 8  
-Bhavnagar-Ankleshwar 303 6  
-Bhavnagar-Bharuch 313 6  
-Bhavnagar-Navsari 358 7  
-Bhavnagar-Valsad 404 8  
-Bhavnagar-Saputara 406 8  
-Bhavnagar-Bhuj 436 8  
-Bhavnagar-Dholka 182 4  
-Bhavnagar-Kheda 297 6  
-Bhavnagar-Rajpipla 290 6  
-Bhavnagar-Bhuj 436 8  
+Gandhinagar-Bhavnagar 245 5 9
+Gandhinagar-Jamnagar 360 7 03
+Gandhinagar-Junagadh 394 7 03
+Gandhinagar-Porbandar 481 9 07
+Gandhinagar-Anand 90 2 12
+Gandhinagar-Nadiad 62 1.5 9
+Gandhinagar-Morbi 303 6 10
+Gandhinagar-Surendranagar 203 4 02
+Gandhinagar-Godhra 188 4 02
+Gandhinagar-Palanpur 309 6 10
+Gandhinagar-Mehsana 38 1 11
+Gandhinagar-Patan 124 3 01
+Gandhinagar-Bhuj 441 8 05
+Gandhinagar-Valsad 431 8 05
+Gandhinagar-Navsari 385 7 03
+Gandhinagar-Ankleshwar 226 4.5 9
+Gandhinagar-Bharuch 237 4.5 9
+Gandhinagar-Dahod 255 5 9
+Gandhinagar-Gandhidham 391 7 03
+Gandhinagar-Morbi 303 6 10
+Gandhinagar-Veraval 469 9 07
+Gandhinagar-Amreli 368 7 03
+Gandhinagar-Palitana 392 8 05
+Gandhinagar-Kheda 72 2 12
+Gandhinagar-Rajpipla 316 6 10
+Gandhinagar-Bhuj 441 8 05
+Gandhinagar-Bhavnagar-245 5 9
+Gandhinagar-Sanand 45 1 11
+Gandhinagar-Dholka 45 1 11
+Bhavnagar-Rajkot 174 4 02
+Bhavnagar-Junagadh 191 4 02
+Bhavnagar-Porbandar 287 6 10
+Bhavnagar-Jamnagar 251 5 9
+Bhavnagar-Surendranagar 184 4 02
+Bhavnagar-Palitana 59 2 12
+Bhavnagar-Diu 215 5 9
+Bhavnagar-Amreli 148 3 01
+Bhavnagar-Gir Somnath 259 6 10
+Bhavnagar-Bhuj 436 8 05
+Bhavnagar-Somnath 290 6 10
+Bhavnagar-Veraval 277 6 10
+Bhavnagar-Dwarka 377 8 05
+Bhavnagar-Gandhidham 442 9 07
+Bhavnagar-Mandvi 458 9 07
+Bhavnagar-Morbi 287 6 10
+Bhavnagar-Bhuj 436 8 05
+Bhavnagar-Nadiad 227 5 9
+Bhavnagar-Mehsana 347 7 03
+Bhavnagar-Patan 365 7 03
+Bhavnagar-Palanpur 425 8 05
+Bhavnagar-Ankleshwar 303 6 10
+Bhavnagar-Bharuch 313 6 10
+Bhavnagar-Navsari 358 7 03
+Bhavnagar-Valsad 404 8 05
+Bhavnagar-Saputara 406 8 05
+Bhavnagar-Bhuj 436 8 05
+Bhavnagar-Dholka 182 4 02
+Bhavnagar-Kheda 297 6 10
+Bhavnagar-Rajpipla 290 6 10
+Bhavnagar-Bhuj 436 8 05
+Mumbai-Delhi 1377 16 08
+Kolkata-Chennai 1660 28 12
+Delhi-Mumbai 1377 16 08 11
+Chennai-Kolkata 1660 28 11
+Bangalore-Delhi 2167 33 11
+Hyderabad-Mumbai 709 11 09
+Ahmedabad-Mumbai 528 7 3
+Pune-Delhi 1443 19 3
+Jaipur-Mumbai 1170 15 4
+Lucknow-Delhi 497 6 4
+Chandigarh-Delhi 245 3 4
+Kolkata-Mumbai 1965 31 5
+Chennai-Delhi 2186 31 5
+Bangalore-Kolkata 1871 31 6
+Hyderabad-Delhi 1584 26 7
+Ahmedabad-Delhi 934 14 3
+Pune-Kolkata 2020 33 4
+Jaipur-Delhi 281 4 4
+Lucknow-Mumbai 1307 16 08
+Chandigarh-Mumbai 1662 27 4
+Chennai-Bangalore 362 6 5
+Kolkata-Delhi 1449 17 7
+Hyderabad-Kolkata 1569 26 7
+Ahmedabad-Kolkata 2050 33 7
+Pune-Chennai 1165 20 7
+Jaipur-Kolkata 1697 25 7
+Lucknow-Bangalore 2168 34 7
+Chandigarh-Delhi 245 3 6
+Mumbai-Chennai 1286 17 5
+Delhi-Kolkata 1449 17 4
+Bangalore-Delhi 2167 33 4
+Hyderabad-Mumbai 709 11 09
+Pune-Kolkata 2020 33 5
+Ahmedabad-Mumbai 528 7 5
+Jaipur-Delhi 281 4 5
+Chennai-Mumbai 1286 17 3
+Kolkata-Bangalore 1700 30 3
+Hyderabad-Delhi 1584 26 3
+Pune-Delhi 1443 19 5
+Lucknow-Mumbai 1307 16 08
+Chandigarh-Mumbai 1662 27 6
+Ahmedabad-Chennai 1776 31 8
+Jaipur-Kolkata 1697 25 10
+Bhubaneswar-Delhi 1720 27 10 
+Guwahati-Kolkata 1056 17 10
+Mumbai-Hyderabad 709 11 09
+Kolkata-Hyderabad 1569 26 10
+Delhi-Bangalore 2174 33 11
+Chennai-Delhi 2186 31 11
+Bangalore-Kolkata 1871 31 11
+Hyderabad-Mumbai 709 11 09
+Pune-Chennai 1165 20 12
+Jaipur-Delhi 281 4 12
+Lucknow-Bangalore 2168 34 8
+Chandigarh-Delhi 245 3 8
+Mumbai-Chennai 1286 17 8
+Delhi-Kolkata 1449 17 8
+Bangalore-Delhi 2167 33 8
+Pune-Kolkata 2020 33 8
+Ahmedabad-Mumbai 528 7 9 
+Chennai-Mumbai 1286 17 9
+Hyderabad-Delhi 1584 26 9
+Kolkata-Bangalore 1700 30 4 
+Pune-Delhi 1443 19 4
+Lucknow-Mumbai 1307 16 08
+Jaipur-Kolkata 1697 25 5
+Bhubaneswar-Delhi 1720 27 4
+Guwahati-Kolkata 1056 17 4
+Mumbai-Hyderabad 709 11 09
+Kolkata-Hyderabad 1569 26 09
+Delhi-Bangalore 2174 33 08
+Chennai-Delhi 2186 31 09
+Bangalore-Kolkata 1871 31 09
+Hyderabad-Mumbai 709 11 09
+Pune-Chennai 1165 20 09
+Jaipur-Delhi 281 4 09
+Lucknow-Bangalore 2168 34 10
+Chandigarh-Delhi 245 3 10
+Mumbai-Chennai 1286 17 10
+Delhi-Kolkata 1449 17 10
+Bangalore-Delhi 2167 33 10
+Pune-Kolkata 2020 33 11
+Ahmedabad-Mumbai 528 7 11
+Chennai-Mumbai 1286 17 11
+Hyderabad-Delhi 1584 26 11
+Kolkata-Bangalore 1700 30 11
+Pune-Delhi 1443 19 11
+Lucknow-Mumbai 1307 16 08
+Jaipur-Kolkata 1697 25 12
+Bhubaneswar-Delhi 1720 27 12
+Guwahati-Kolkata 1056 17 12
+Mumbai-Hyderabad 709 11 09
+Chennai-Delhi 2186 31 12
+Hyderabad-Bangalore 562 8 3
+Pune-Chennai 1165 20 3
+Kolkata-Delhi 1449 17 3
+Bangalore-Mumbai 1097 16 08
+Chennai-Kolkata 1660 29 3
+Delhi-Hyderabad 1562 26 3
+Mumbai-Kolkata 1965 32 3
+Chennai-Bangalore 345 5 4
+Jaipur-Mumbai 1166 18 4
+Kolkata-Chennai 1660 29 4 
+Delhi-Ahmedabad 935 14 4
+Bangalore-Chennai 362 6 6
+Pune-Mumbai 741 12 8
+Hyderabad-Bangalore 562 8 10
+Chennai-Hyderabad 699 11 09
+Mumbai-Jaipur 1173 17 10
+Kolkata-Mumbai 2045 32 10
+Bangalore-Kolkata 1700 30 21
+Delhi-Bhopal 771 12 2
+Pune-Mumbai 741 12 3
+Chennai-Bangalore 345 5 3
+Hyderabad-Delhi 1584 26 3
+Kolkata-Delhi 1449 17 3
+Mumbai-Chennai 1286 17 3
+Bangalore-Mumbai 1097 16 08
+Delhi-Chennai 2186 31 6
+Kolkata-Hyderabad 1569 26 6
+Pune-Chennai 1165 20 6
+Jaipur-Delhi 281 4 6
+Chennai-Mumbai 1286 17 6
+Mumbai-Hyderabad 709 11 09
+Bangalore-Delhi 2167 33 12
+Pune-Kolkata 2020 33 12
+Ahmedabad-Mumbai 528 7 12
+Hyderabad-Bangalore 562 8 2
+Chennai-Delhi 2186 31 12
