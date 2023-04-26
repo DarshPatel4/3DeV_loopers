@@ -89,7 +89,7 @@ class Passanger_Data{
     while(seatcheak>>check)
     {
         if(check==seat_no){
-            cout<<"seat is already booked"<<endl;
+            cout<<"This seat is already booked"<<endl;
             goto reenter;
         }
     }
@@ -103,18 +103,19 @@ class Passanger_Data{
      void putdata(){
         ofstream detail("hello.txt");
         string quota;
-        for (int i = 0; i < 45; i++)
+        for (int i = 0; i < 62; i++)
         {
             detail<<"*";
         }
         detail << endl;
-        detail<<"*                             GUJRAT RAILWAY                               *" << endl;
-        for (int i = 0; i < 45; i++)
+        detail<<"*                      GUJRAT RAILWAY                        *" << endl;
+        for (int i = 0; i < 62; i++)
         {
             detail<<"*";
         }
-        detail << "*                              TRAIN TICKET                                *" << endl;
-        for (int i = 0; i < 45; i++)
+        cout<<endl;
+        detail << endl<<"*                       TRAIN TICKET                         *" << endl;
+        for (int i = 0; i < 62; i++)
         {
             detail<<"*";
         }
@@ -123,7 +124,7 @@ class Passanger_Data{
         detail<<"Mobile number : "<<mobile_number<<endl;
         detail<<"Gender : "<<gender<<endl;
         detail<<"Age : "<<age<<endl;
-        detail<<"date of journey:"<<date<<endl;
+        detail<<"Date of journey:"<<date<<endl;
      }
 
       static void showpnrnumber()
@@ -133,7 +134,7 @@ class Passanger_Data{
         pnr_details<<"PNR NO:"<<pnr_number<<endl;
         pnr_number++;
         
-        for(int j=0;j<45;j++)
+        for(int j=0;j<62;j++)
         {
             pnr_details<<"*";
         }
@@ -157,8 +158,9 @@ int main()
     
     Passanger_Data D;
     D.getdata();
+    D.seat();
+    D.showpnrnumber();
     D.putdata();
-    //D.showpnrnumber();
 
     // Get departure city name from user
     cout << "Enter departure to destination city(ie., Departure-Destination): ";
@@ -177,6 +179,7 @@ int main()
         cout << "Time : " << time << " hours"<< endl;
         readlist>> Train_time;
         cout << "Train time : "<<Train_time<< ":00 PM"<<endl;
+        
         string quota;
         cout<<"select your quota \"general/tatkal\"";
         cin>>quota;

@@ -1,8 +1,10 @@
-*********************************************
-Gujarat Railway Private Limited
-*********************************************
-Name : sdj sjdfh sdfj
-Mobile number : 2345334
-Gender : Male
+************************************************************
+*                        GUJRAT RAILWAY                          *
+************************************************************
+*                         TRAIN TICKET                           *
+************************************************************
+Name : wq qw qw
+Mobile number : 2134
+Gender : we
 Age : 23
-date of journey:32
+date of journey:23
