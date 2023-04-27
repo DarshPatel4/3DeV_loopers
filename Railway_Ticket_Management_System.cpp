@@ -241,6 +241,7 @@ int main()
         file.close();
 
 traveler_information information;
+
 information.personal_information();
 information.taking_placedetail();
 information.check_place();
