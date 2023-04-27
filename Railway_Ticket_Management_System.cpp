@@ -2,6 +2,7 @@
 #include<string>
 #include<fstream>
 #include <iomanip>
+
 using namespace std;
 class file_formating;
 
@@ -14,7 +15,7 @@ class traveler_information
     string gender;
     int age;
     static int male,female;
-    long int phonenumber;
+    long long int phonenumber;
     string journey_date;
     string from;
     string to;
@@ -23,6 +24,7 @@ class traveler_information
     int distance,train_class;
     int time,seat_no,cheak;
     float total_amount;
+    static long int pnr_number;
   
 
     //passenger detail taking function
@@ -48,7 +50,7 @@ class traveler_information
                 else if(gender=="female")
                 female++;
 
-                cout<<"select your train class : "<<endl;
+        cout<<"Select your train class : "<<endl;
         cout<<"press \"1\" for \"frist class\""<<endl;
         cout<<"press \"2\" for \"second class\""<<endl;
         cout<<"press \"3\" for \"frist class A.C\""<<endl;
@@ -129,7 +131,6 @@ class traveler_information
             listfile.close();
         }
 
-
 void seat()
     {
     reenter:
@@ -144,53 +145,62 @@ void seat()
             goto reenter;
         }
     }
-    cout<<"seat is allocated"<<endl;
+    cout<<"Your desire seat is allocated to you...\nEnjoy your journey..."<<endl;
 
     fstream seatnumber;
     seatnumber.open("seatnumber.txt",ios::app);
     seatnumber<<" "<<seat_no;
     seatnumber.close();
     }
-
+    static void showpnrnumber()
+     {
+        ofstream pnr_details("hello.txt",ios::app);
+        pnr_number++;
+        pnr_details<<"PNR NO:"<<pnr_number<<endl;
+        
+        cout<<endl;
+     }
 
     void print_file()
     {
  fstream out;
  out.open("hello.txt",ios::app);
- for (int i = 0; i < 78; i++)
+  out<<endl;
+ for (int i = 0; i < 85; i++)
  {
-    cout<<"*";
+    out<<"*";
  }
             out  << endl;
-            out << "*                             GUJRAT RAILWAY                                 *" << endl;
-            for (int i = 0; i < 78; i++)
+            out << "*                             INDIAN RAILWAY LIMITED                                *" << endl;
+            for (int i = 0; i < 85; i++)
                 {
-                    cout<<"*";
+                    out<<"*";
                 }
             out << endl;
-            out << "*                              TRAIN TICKET                                  *" << endl;
-            for (int i = 0; i < 78; i++)
+            out << "*                                  TRAIN TICKET                                     *" << endl;
+            for (int i = 0; i < 85; i++)
                 {
-                    cout<<"*";
+                    out<<"*";
                 }
             out << endl;
-            out <<"*Passenger Name "<<"    :"<<left<<setw(25)<<passenger_name<<endl;
-            out << "*Phone number   "<<"    :"<<setw(15)<<phonenumber;
-            out << "*\t\t\t\tDeparture City "<<"    :"<<setw(15)<<from<<endl;
-            out << "*Destination City "<<"  :"<<setw(15)<<to;
-            out << "*\t\t\t\tDistance"<<"           :"<<setw(3)<<distance<<"Km"<<endl;
-            out << "*Time"<<"               :"<<setw(2)<<time<<"Hr           ";    
-            out << "*\t\t\t\tJourney Date "<<"      :"<<setw(15)<<journey_date<<endl;
-            out << "*Journey Time "<<"      :"<<setw(15)<<time;
-            out << "*\t\t\t\tAge"<<"                :"<<setw(15)<<age<< endl;
-            out << "*Gender"<<"             :"<<setw(15)<<gender<<endl;
-            out << "*Seat Number "<<"       :"<<seat_no << endl<<endl;
-            out<<"*\t\t\t\t\t\tYour final price is"<<" :"<<total_amount<<"Rs"<<endl;
-            for (int i = 0; i < 78; i++)
+            out <<"* Passenger Name "<<"    :"<<left<<setw(27)<<passenger_name<<"*"<<endl;
+            out << "* Phone number   "<<"    :"<<setw(15)<<phonenumber;
+            out << "\t\t\t\tDeparture City "<<"    :"<<setw(11)<<from<<endl;
+            out << "* Destination City "<<"  :"<<setw(15)<<to;
+            out << "\t\t\t\tDistance"<<"           :"<<setw(3)<<distance<<"Km"<<endl;
+            out << "* Time"<<"               :"<<setw(2)<<time<<"Hr           ";    
+            out << "\t\t\t\tJourney Date "<<"      :"<<setw(15)<<journey_date<<endl;
+            out << "* Journey Time "<<"      :"<<setw(15)<<time;
+            out << "\t\t\t\tAge"<<"                :"<<setw(15)<<age<< endl;
+            out << "* Gender"<<"             :"<<setw(3)<<gender<<endl;
+            out << "* PNR No."<<"            :"<<pnr_number<<endl;
+            out << "*Seat Number "<<"       :"<<seat_no <<endl;
+            out<<"*\t\t\t\t\t\t\tYour final price is"<<" : "<<"Rs"<<total_amount<<endl;
+            for (int i = 0; i < 85; i++)
                 {
-                    cout<<"*";
+                    out<<"*";
                 }
-            out <<endl<<endl;
+            out <<endl;
        }        
     
     void file__end()
@@ -203,9 +213,15 @@ void seat()
             file<<"-";
         }
         file<<endl;
+        for (int i = 0; i < 92; i++)
+        {
+            file<<"-";
+        }
+        file<<endl;
         file.close();
     }
 };
+long int traveler_information :: pnr_number=301618087;
 int traveler_information::male=0;
 int traveler_information::female=0;
 
@@ -220,7 +236,7 @@ int main()
         fstream file;
         file.open("hello.txt", ios::app);
         file<<endl<<"Date:"<<date<<endl;
-        file<<"Day:"<<day<<endl<<endl;
+        file<<"Day:"<<day<<endl;
         file.close();
 
 traveler_information information;
@@ -228,6 +244,8 @@ information.personal_information();
 information.taking_placedetail();
 information.check_place();
 information.seat();
+information.showpnrnumber();
 information.print_file();
+information.file__end();
 
 }
