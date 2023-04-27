@@ -13,7 +13,7 @@ class traveler_information
     //variable declaration
     string passenger_name,tem;
     string gender;
-    int age;
+    int age,w=0;
     static int male,female;
     long long int phonenumber;
     string journey_date;
@@ -30,19 +30,19 @@ class traveler_information
     //passenger detail taking function
         void personal_information()
         {
-                cout<<endl<<"Enter passenger's name:";
+                cout<<endl<<"Passenger's name : ";
                 getline(cin>>ws, passenger_name);
 
-                cout<<"Enter passenger's gender:";
+                cout<<"Gender : ";
                 cin>>gender;
 
-                cout<<"Enter passenger's age:";
+                cout<<"Age : ";
                 cin>>age;
 
-                cout<<"Enter phone number:";
+                cout<<"Mobile number:";
                 cin>>phonenumber;
 
-                cout<<"Enter jouney date:";
+                cout<<"Journey date:";
                 cin>>journey_date;
 
                 if(gender=="male")
@@ -109,7 +109,6 @@ class traveler_information
             departToDestiny =from+"-"+to;
         }
 
-
         void check_place()
         {
               fstream listfile;
@@ -123,11 +122,13 @@ class traveler_information
                     listfile>>distance;
                     total_amount=distance*0.70;
                     listfile>>time;
+                    w++;
                     break;
                 }
-
             }
-            
+            if(w==0){
+                cout<<"Train is not available of this route..."<<endl;
+            }
             listfile.close();
         }
 
@@ -141,7 +142,7 @@ void seat()
     while(seatcheak>>cheak)
     {
         if(cheak==seat_no){
-            cout<<"seat is already booked"<<endl;
+            cout<<"This seat is already booked"<<endl;
             goto reenter;
         }
     }
@@ -156,7 +157,7 @@ void seat()
      {
         ofstream pnr_details("hello.txt",ios::app);
         pnr_number++;
-        pnr_details<<"PNR NO:"<<pnr_number<<endl;
+        pnr_details<<"PNR NO : "<<pnr_number<<endl;
         
         cout<<endl;
      }
@@ -183,19 +184,19 @@ void seat()
                     out<<"*";
                 }
             out << endl;
-            out <<"* Passenger Name "<<"    :"<<left<<setw(27)<<passenger_name<<"*"<<endl;
+            out <<"* Passenger Name "<<"    :"<<left<<setw(62)<<passenger_name<<"*"<<endl;
             out << "* Phone number   "<<"    :"<<setw(15)<<phonenumber;
-            out << "\t\t\t\tDeparture City "<<"    :"<<setw(11)<<from<<endl;
+            out << "\t\t\t\tDeparture City "<<"    :"<<setw(12)<<from<<"*"<<endl;
             out << "* Destination City "<<"  :"<<setw(15)<<to;
-            out << "\t\t\t\tDistance"<<"           :"<<setw(3)<<distance<<"Km"<<endl;
+            out << "\t\t\t\tDistance"<<"           :"<<setw(4)<<distance<<"Km      *"<<endl;
             out << "* Time"<<"               :"<<setw(2)<<time<<"Hr           ";    
-            out << "\t\t\t\tJourney Date "<<"      :"<<setw(15)<<journey_date<<endl;
+            out << "\t\t\t\tJourney Date "<<"      :"<<setw(12)<<journey_date<<"*"<<endl;
             out << "* Journey Time "<<"      :"<<setw(15)<<time;
-            out << "\t\t\t\tAge"<<"                :"<<setw(15)<<age<< endl;
-            out << "* Gender"<<"             :"<<setw(3)<<gender<<endl;
-            out << "* PNR No."<<"            :"<<pnr_number<<endl;
-            out << "*Seat Number "<<"       :"<<seat_no <<endl;
-            out<<"*\t\t\t\t\t\t\tYour final price is"<<" : "<<"Rs"<<total_amount<<endl;
+            out << "\t\t\t\tAge"<<"                :"<<setw(12)<<age<<"*"<< endl;
+            out << "* Gender"<<"             :"<<setw(62)<<gender<<"*"<<endl;
+            out << "* PNR No."<<"            :"<<setw(62)<<pnr_number<<"*"<<endl;
+            out << "* Seat Number "<<"       :"<<setw(62)<<seat_no <<"*"<<endl;
+            out<<"*\t\t\t\t\t\t\tYour final price is"<<" : "<<setw(26)<<"Rs. "<<total_amount<<endl;
             for (int i = 0; i < 85; i++)
                 {
                     out<<"*";
@@ -229,14 +230,14 @@ int main()
 {
     string date;
     string day;
-     cout<<"Enter date as 'dd/mm/yyyy':";
+     cout<<"Enter date(dd/mm/yyyy) : ";
         cin>>date;
-        cout<<"Enter day:";
+        cout<<"Enter day : ";
         cin>>day;
         fstream file;
         file.open("hello.txt", ios::app);
-        file<<endl<<"Date:"<<date<<endl;
-        file<<"Day:"<<day<<endl;
+        file<<endl<<"Date : "<<date<<endl;
+        file<<"Day : "<<day<<endl;
         file.close();
 
 traveler_information information;
