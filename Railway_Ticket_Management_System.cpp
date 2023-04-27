@@ -25,7 +25,6 @@ class traveler_information
     int time,seat_no,cheak;
     float total_amount;
     static long int pnr_number;
-  
 
     //passenger detail taking function
         void personal_information()
