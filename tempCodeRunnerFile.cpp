@@ -1,0 +1,3 @@
+
+information.seat();
+information.showpnrnumber();
