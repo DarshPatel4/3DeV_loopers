@@ -166,7 +166,7 @@ void seat()
     {
  fstream out;
  out.open("hello.txt",ios::app);
-  out<<endl;
+ out<<endl;
  for (int i = 0; i < 85; i++)
  {
     out<<"*";
@@ -184,6 +184,7 @@ void seat()
                     out<<"*";
                 }
             out << endl;
+
             out <<"* Passenger Name "<<"    :"<<left<<setw(62)<<passenger_name<<"*"<<endl;
             out << "* Phone number   "<<"    :"<<setw(15)<<phonenumber;
             out << "\t\t\t\tDeparture City "<<"    :"<<setw(12)<<from<<"*"<<endl;
