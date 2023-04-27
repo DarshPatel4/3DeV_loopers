@@ -1,3 +1,1 @@
-
-information.seat();
-information.showpnrnumber();
+listfile>>distance;
