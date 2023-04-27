@@ -33,7 +33,7 @@ class traveler_information
                 getline(cin>>ws, passenger_name);
 
                 cout<<"Gender : ";
-                cin>>gender;
+                getline(cin, gender);
 
                 cout<<"Age : ";
                 cin>>age;
@@ -50,30 +50,30 @@ class traveler_information
                 female++;
 
         cout<<"Select your train class : "<<endl;
-        cout<<"press \"1\" for \"frist class\""<<endl;
-        cout<<"press \"2\" for \"second class\""<<endl;
-        cout<<"press \"3\" for \"frist class A.C\""<<endl;
-        cout<<"press \"4\" for \"second class A.C\""<<endl;
-        cout<<"press \"5\" for \"1 tire sleeper class\""<<endl;
-        cout<<"press \"6\" for \"2 tire sleeper class\""<<endl;
-        cout<<"press \"7\" for \"3 tire sleeper class\""<<endl;
+        cout<<"press \"1\" for \"First class\""<<endl;
+        cout<<"press \"2\" for \"Second class\""<<endl;
+        cout<<"press \"3\" for \"First class A.C\""<<endl;
+        cout<<"press \"4\" for \"Second class A.C\""<<endl;
+        cout<<"press \"5\" for \"1 Tier sleeper class\""<<endl;
+        cout<<"press \"6\" for \"2 Tier sleeper class\""<<endl;
+        cout<<"press \"7\" for \"3 Tier sleeper class\""<<endl;
         cin>>train_class;
 
         switch(train_class)
         {
             case 1:
             {
-            cout<<"Class : frist class"<<endl;
+            cout<<"Class : First class"<<endl;
             break;
             }
             case 2:
             {
-            cout<<"Class : second class"<<endl;
+            cout<<"Class : Second class"<<endl;
             break;
             }
             case 3:
             {
-            cout<<"Class : frist class A.C"<<endl;
+            cout<<"Class : First class A.C"<<endl;
             break;
             }
             case 4:
@@ -83,17 +83,17 @@ class traveler_information
             }
             case 5:
             {
-            cout<<"Class : 1 tire sleeper class"<<endl;
+            cout<<"Class : 1 Tier sleeper class"<<endl;
             break;
             }
             case 6:
             {
-            cout<<"Class : 2 tire sleeper class"<<endl;
+            cout<<"Class : 2 Tier sleeper class"<<endl;
             break;
             }
             case 7:
             {
-            cout<<"Class : 3 tire sleeper class"<<endl;
+            cout<<"Class : 3 Tier sleeper class"<<endl;
             break;
             }
         }
@@ -196,13 +196,20 @@ void seat()
             out << "* Gender"<<"             :"<<setw(62)<<gender<<"*"<<endl;
             out << "* PNR No."<<"            :"<<setw(62)<<pnr_number<<"*"<<endl;
             out << "* Seat Number "<<"       :"<<setw(62)<<seat_no <<"*"<<endl;
-            out<<"*\t\t\t\t\t\t\tYour final price is"<<" : "<<setw(26)<<"Rs. "<<total_amount<<endl;
+            out<<"*\t\t\t\t\t\t\tYour final price is"<<" : "<<"Rs. "<<total_amount;
+            for (int i = 0; i < 26; i++)
+            {
+               out<<" ";
+            }
+            
+            out<<"*"<<endl;
             for (int i = 0; i < 85; i++)
                 {
                     out<<"*";
                 }
             out <<endl;
-       }        
+       }  
+    
     
     void file__end()
     {
