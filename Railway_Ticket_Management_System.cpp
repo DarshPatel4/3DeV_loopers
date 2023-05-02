@@ -38,10 +38,10 @@ class traveler_information
                 cout<<"Age : ";
                 cin>>age;
 
-                cout<<"Mobile number:";
+                cout<<"Mobile number : ";
                 cin>>phonenumber;
 
-                cout<<"Journey date:";
+                cout<<"Journey date : ";
                 cin>>journey_date;
 
                 if(gender=="male")
@@ -101,9 +101,9 @@ class traveler_information
 
       void taking_placedetail()
         {
-            cout<<endl<<"From:";
+            cout<<endl<<"From : ";
             cin>>from;
-            cout<<"To:";
+            cout<<"To : ";
             cin>>to;
             departToDestiny =from+"-"+to;
         }
@@ -134,14 +134,14 @@ class traveler_information
 void seat()
     {
     reenter:
-    cout<<"Enter the seat number: ";
+    cout<<"Enter the seat number : ";
     cin>>seat_no; 
     fstream seatcheak;
     seatcheak.open("seatnumber.txt");
     while(seatcheak>>cheak)
     {
         if(cheak==seat_no){
-            cout<<"This seat is already booked"<<endl;
+            cout<<"This seat is already booked...\nRe-enter the seat number..."<<endl;
             goto reenter;
         }
     }
