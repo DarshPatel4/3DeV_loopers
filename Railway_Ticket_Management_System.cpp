@@ -6,7 +6,7 @@
 using namespace std;
 class file_formating;
 
-                   //information taking class
+//information taking class
 class traveler_information
 {
     public:
@@ -184,18 +184,18 @@ void seat()
                 }
             out << endl;
 
-            out <<"* Passenger Name "<<"    :"<<left<<setw(62)<<passenger_name<<"*"<<endl;
-            out << "* Phone number   "<<"    :"<<setw(15)<<phonenumber;
-            out << "\t\t\t\tDeparture City "<<"    :"<<setw(12)<<from<<"*"<<endl;
-            out << "* Destination City "<<"  :"<<setw(15)<<to;
-            out << "\t\t\t\tDistance"<<"           :"<<setw(4)<<distance<<"Km      *"<<endl;
-            out << "* Time"<<"               :"<<setw(2)<<time<<"Hr           ";    
-            out << "\t\t\t\tJourney Date "<<"      :"<<setw(12)<<journey_date<<"*"<<endl;
-            out << "* Journey Time "<<"      :"<<setw(15)<<time;
-            out << "\t\t\t\tAge"<<"                :"<<setw(12)<<age<<"*"<< endl;
-            out << "* Gender"<<"             :"<<setw(62)<<gender<<"*"<<endl;
-            out << "* PNR No."<<"            :"<<setw(62)<<pnr_number<<"*"<<endl;
-            out << "* Seat Number "<<"       :"<<setw(62)<<seat_no <<"*"<<endl;
+            out <<"* Passenger Name "<<"   : "<<left<<setw(62)<<passenger_name<<"*"<<endl;
+            out << "* Phone number   "<<"   : "<<setw(15)<<phonenumber;
+            out << "\t\t\t\tDeparture City "<<"   : "<<setw(12)<<from<<"*"<<endl;
+            out << "* Destination City "<<" : "<<setw(15)<<to;
+            out << "\t\t\t\tDistance"<<"          : "<<setw(4)<<distance<<"Km      *"<<endl;
+            out << "* Time"<<"              : "<<setw(2)<<time<<"Hr           ";    
+            out << "\t\t\t\tJourney Date "<<"     : "<<setw(12)<<journey_date<<"*"<<endl;
+            out << "* Journey Time "<<"     : "<<setw(15)<<time;
+            out << "\t\t\t\tAge"<<"               : "<<setw(12)<<age<<"*"<< endl;
+            out << "* Gender"<<"            : "<<setw(62)<<gender<<"*"<<endl;
+            out << "* PNR No."<<"           : "<<setw(62)<<pnr_number<<"*"<<endl;
+            out << "* Seat Number "<<"      : "<<setw(62)<<seat_no <<"*"<<endl;
             out<<"*\t\t\t\t\t\t\tYour final price is"<<" : "<<"Rs. "<<total_amount;
             for (int i = 0; i < 26; i++)
             {
