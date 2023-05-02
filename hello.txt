@@ -8,14 +8,14 @@ PNR NO : 301618088
 *                                  TRAIN TICKET                                     *
 *************************************************************************************
 * Passenger Name    : Darsh Patel                                                   *
-* Phone number      : 9979099218     				Departure City    : Vadodara    *
-* Destination City  : Godhra         				Distance          : 78  Km      *
-* Time              : 2 Hr           				Journey Date      : 04/05/2023  *
-* Journey Time      : 2              				Age               : 18          *
+* Phone number      : 9979099218              Departure City    : Vadodara    *
+* Destination City  : Godhra      				    Distance          : 78  Km      *
+* Time              : 2 Hr           				  Journey Date      : 04/05/2023  *
+* Journey Time      : 2              			    Age               : 18          *
 * Gender            : Male                                                          *
 * PNR No.           : 301618088                                                     *
 * Seat Number       : 27                                                            *
-*							Your final price is : Rs. 54.6                          *
+*							        Your final price is : Rs. 54.6                          *
 *************************************************************************************
 --------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------
