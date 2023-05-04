@@ -100,6 +100,7 @@ class traveler_information
 
       void taking_placedetail()
         {
+            cout<<"Enter City name(First later of the city must be capital latter) : "<<endl;
             cout<<endl<<"From : ";
             cin>>from;
             cout<<"To : ";
