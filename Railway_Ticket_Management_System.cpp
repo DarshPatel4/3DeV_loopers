@@ -111,6 +111,7 @@ class traveler_information
         void check_place()
         {
               fstream listfile;
+            Recheck:
             listfile.open("city_data.txt");
 
             while(listfile>>matchcity)
@@ -196,8 +197,8 @@ void seat()
             out << "* Gender"<<"            : "<<setw(62)<<gender<<"*"<<endl;
             out << "* PNR No."<<"           : "<<setw(62)<<pnr_number<<"*"<<endl;
             out << "* Seat Number "<<"      : "<<setw(62)<<seat_no <<"*"<<endl;
-            out<<"*\t\t\t\t\t\t\tYour final price is"<<" : "<<"Rs. "<<total_amount;
-            for (int i = 0; i < 26; i++)
+            out<<"*\t\t\t\t\t\t\tYour final price is"<<" : "<<"Rs. "<<setw(6)<<total_amount;
+            for (int i = 0; i < 24; i++)
             {
                out<<" ";
             }
