@@ -4,7 +4,6 @@
 #include <iomanip>
 
 using namespace std;
-class file_formating;
 
 //information taking class
 class traveler_information
