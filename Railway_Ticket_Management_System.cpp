@@ -230,8 +230,6 @@ void seat()
     }
 };
 long int traveler_information :: pnr_number=301618087;
-int traveler_information::male=0;
-int traveler_information::female=0;
 
 int main()
 {
