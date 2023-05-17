@@ -111,7 +111,6 @@ class traveler_information
         void check_place()
         {
               fstream listfile;
-            Recheck:
             listfile.open("city_data.txt");
 
             while(listfile>>matchcity)
