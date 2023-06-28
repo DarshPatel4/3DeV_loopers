@@ -15,18 +15,12 @@ class traveler_information
 {
 public:
     // Variable declaration
-    string passenger_name, tem;
-    string gender;
+    string passenger_name, tem,gender;
     int age, w = 0;
     static int male, female;
     long long int phonenumber;
-    string journey_date;
-    string from;
-    string to;
-    string departToDestiny;
-    string matchcity;
-    int distance, train_class;
-    int time, seat_no, cheak;
+    string journey_date, from,to,departToDestiny,matchcity;
+    int distance, train_class,time, seat_no, cheak;
     float total_amount;
     static long int pnr_number;
 
@@ -42,8 +36,13 @@ public:
         cout << "Age : ";
         cin >> age;
 
+        label_1:
         cout << "Mobile number : ";
         cin >> phonenumber;
+        if (phonenumber>9999999999 || phonenumber<1000000000){
+            cout<<"Invalid mobile no."<<endl;
+            goto label_1;
+        }
 
         cout << "Journey date : ";
         cin >> journey_date;
@@ -53,14 +52,15 @@ public:
         else if (gender == "female")
             female++;
 
-        cout << "Select your train class : " << endl;
-        cout << "press \"1\" for \"First class\"" << endl;
-        cout << "press \"2\" for \"Second class\"" << endl;
-        cout << "press \"3\" for \"First class A.C\"" << endl;
-        cout << "press \"4\" for \"Second class A.C\"" << endl;
-        cout << "press \"5\" for \"1 Tier sleeper class\"" << endl;
-        cout << "press \"6\" for \"2 Tier sleeper class\"" << endl;
-        cout << "press \"7\" for \"3 Tier sleeper class\"" << endl;
+        cout << "Choose Your Train class.... " << endl;
+        cout << "press [1] for \"First class General\"" << endl;
+        cout << "press [2] for \"Second class General\"" << endl;
+        cout << "press [3] for \"First class A.C\"" << endl;
+        cout << "press [4] for \"Second class A.C\"" << endl;
+        cout << "press [5] for \"Tier[1] sleeper class\"" << endl;
+        cout << "press [6] for \"Tier[2] sleeper class\"" << endl;
+        //cout << "press [7] for \"Tier[3] sleeper class\"" << endl;
+        cout << "Select Your Train Class Type : ";
         cin >> train_class;
 
         switch (train_class)
@@ -285,7 +285,7 @@ int main()
     cout<<endl;
     string date;
     string day;
-    cout<<"THANKS FOR BEING PATIENT :)"<<endl<<endl;
+    cout<<"THANKS FOR BEING PATIENCE :)"<<endl<<endl;
     cout << "Enter date (dd/mm/yyyy) : ";
     cin >> date;
     cout << "Enter day : ";
