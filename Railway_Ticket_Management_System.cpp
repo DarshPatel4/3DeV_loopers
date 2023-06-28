@@ -221,7 +221,6 @@ public:
         out << endl;
     }
 
-
     void file__end()
     {
         fstream file;
