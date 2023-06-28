@@ -39,7 +39,8 @@
     "iostream": "cpp",
     "iosfwd": "cpp",
     "ostream": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "thread": "cpp"
   },
   "C_Cpp_Runner.msvcWarnings": [
     "/W4",
