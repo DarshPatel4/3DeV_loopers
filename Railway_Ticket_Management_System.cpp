@@ -304,7 +304,7 @@ int main()
     information.seat();
     information.showpnrnumber();
 
-    cout << "Generating ticket..." << endl;
+    cout << "Generating ticket..." << endl<<"Check 'hello.txt' to see your ticket..."<<endl;
     loadingAnimation();
 
     information.print_file();
