@@ -59,7 +59,7 @@ public:
         cout << "press [4] for \"Second class A.C\"" << endl;
         cout << "press [5] for \"Tier[1] sleeper class\"" << endl;
         cout << "press [6] for \"Tier[2] sleeper class\"" << endl;
-        //cout << "press [7] for \"Tier[3] sleeper class\"" << endl;
+        cout << "press [7] for \"Tier[3] sleeper class\"" << endl;
         cout << "Select Your Train Class Type : ";
         cin >> train_class;
 
@@ -257,7 +257,7 @@ void loadingAnimation()
 }
 
 void loadingPage(){
- system("COLOR 0e");
+ system("COLOR 04");
     system("cls");
     int bar1=177 , bar2=219;
     cout<<"\n\n\n\t\t\tLoading....."<<endl;
@@ -308,7 +308,6 @@ int main()
     loadingAnimation();
     cout<<"Check 'hello.txt' to see your ticket..."<<endl;
     
-
     information.print_file();
     information.file__end();
 
