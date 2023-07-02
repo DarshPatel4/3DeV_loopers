@@ -221,7 +221,7 @@ public:
         out << endl;
     }
 
-    void file__end()
+    void file_end()
     {
         fstream file;
         //file ending formatting
@@ -275,12 +275,14 @@ void loadingPage(){
 
 int main()
 {
-    cout<<"\t\t-------------------------------------------------"<<endl ;
-    cout<<"\t\t|\tWELCOME TO THE TICKET BOOKING SYSTEM\t|"<<endl;
-    cout<<"\t\t-------------------------------------------------"<<endl<<endl;
+    cout<<"\t\t|-------------------------------------------------|"<<endl;
+    cout<<"\t\t|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"<<endl;
+    cout<<"\t\t|\tWELCOME TO THE TICKET BOOKING SYSTEM\t  |"<<endl;
+    cout<<"\t\t|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"<<endl;
+    cout<<"\t\t|-------------------------------------------------|"<<endl<<endl;
     cout<<"YOU WILL BE REDIRECTED TO THE BOOKING SYSTEM IN FEW SECONDS..."<<endl<<endl;
     cout<<"Please wait...";
-    sleep(3);
+    sleep(4);
     loadingPage();
     cout<<endl;
     string date;
@@ -309,7 +311,7 @@ int main()
     cout<<"Check 'hello.txt' to see your ticket..."<<endl;
     
     information.print_file();
-    information.file__end();
-
+    information.file_end();
+    
     return 0;
 }
