@@ -10,6 +10,7 @@
 using namespace std;
 void loadingAnimation();
 void loadingPage();
+void userChoice();
 // Information taking class
 class traveler_information
 {
@@ -103,8 +104,12 @@ public:
         }
     }
 
+    void userChoice(){
+        cout<<"Dear user, How can we help you?"<<endl;
+        cout<<"For user registration ";
+    }
     void taking_placedetail()
-    {
+    {  
         cout << "Enter City name(First letter of the city must be a capital letter) : " << endl;
         cout << endl << "From : ";
         cin >> from;
@@ -166,7 +171,7 @@ public:
     static void showpnrnumber()
     {
         ofstream pnr_details("hello.txt", ios::app);
-        pnr_number++;
+        pnr_number++; 
         pnr_details << "PNR NO : " << pnr_number << endl;
 
         cout << endl;
@@ -188,7 +193,7 @@ public:
             out << "*";
         }
         out << endl;
-        out << "*                                  TRAIN TICKET                                     *" << endl;
+        out << "*                                   TRAIN TICKET                                     *" << endl;
         for (int i = 0; i < 85; i++)
         {
             out << "*";
@@ -220,18 +225,17 @@ public:
         }
         out << endl;
     }
-
     void file_end()
     {
         fstream file;
         //file ending formatting
         file.open("hello.txt", ios::app);
-        for (int i = 0; i < 92; i++)
+        for (int i = 0; i < 85; i++)
         {
             file << "-";
         }
         file << endl;
-        for (int i = 0; i < 92; i++)
+        for (int i = 0; i < 85; i++)
         {
             file << "-";
         }
@@ -257,7 +261,7 @@ void loadingAnimation()
 }
 
 void loadingPage(){
- system("COLOR 04");
+ system("COLOR 0D");
     system("cls");
     int bar1=177 , bar2=219;
     cout<<"\n\n\n\t\t\tLoading....."<<endl;
@@ -272,21 +276,21 @@ void loadingPage(){
     }
     system("cls");
 }
-
 int main()
 {
+    
+    string date;
+    string day;
     cout<<"\t\t|-------------------------------------------------|"<<endl;
-    cout<<"\t\t|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"<<endl;
+    cout<<"\t\t|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|--|-|-|-|-|-|-|-|"<<endl;
     cout<<"\t\t|\tWELCOME TO THE TICKET BOOKING SYSTEM\t  |"<<endl;
     cout<<"\t\t|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|"<<endl;
     cout<<"\t\t|-------------------------------------------------|"<<endl<<endl;
     cout<<"YOU WILL BE REDIRECTED TO THE BOOKING SYSTEM IN FEW SECONDS..."<<endl<<endl;
     cout<<"Please wait...";
-    sleep(4);
+    sleep(3);
     loadingPage();
-    cout<<endl;
-    string date;
-    string day;
+    cout<<endl;  
     cout<<"THANKS FOR BEING PATIENCE :)"<<endl<<endl;
     cout << "Enter date (dd/mm/yyyy) : ";
     cin >> date;
@@ -312,6 +316,6 @@ int main()
     
     information.print_file();
     information.file_end();
-    
+   
     return 0;
 }
