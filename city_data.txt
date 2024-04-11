@@ -1,4 +1,4 @@
-Ahmedabad-Vadodara 111 092 9 
+Ahmedabad-Vadodara 111 9 9 
 Ahmedabad-Godhra 130 2 9 
 Ahmedabad-Surat 278 5 12 
 Ahmedabad-Rajkot 216 4 11 09
