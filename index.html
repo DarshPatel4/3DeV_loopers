@@ -1,63 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Train Ticket Booking</title>
+  <title>Railway Ticket Booking</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-v+Z6ExwE4WkVUKzJ8yEeIKU/RL7p4dGUnHr0hbDnHUTq9mEB3TI24iuLIno32X9Xj5lgUoP+Ar3+Z2Zndt1LLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <div class="container">
-    <h1>Train Ticket Booking</h1>
-    <form id="booking-form">
-      <div class="form-group">
-        <label for="passenger-name">Passenger Name:</label>
-        <input type="text" id="passenger-name" name="passengerName" required>
+  <div class="app-container">
+    <div class="app-header">
+      <div class="app-header-left">
+        <div class="app-icon"></div>
+        <h1 class="app-name">Railway Ticket Booking</h1>
       </div>
-      <div class="form-group">
-        <label for="phone-number">Phone Number:</label>
-        <input type="tel" id="phone-number" name="phoneNumber" required>
+      <div class="app-header-right">
+        <button class="mode-switch">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="moon"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
       </div>
-      <div class="form-group">
-        <label for="departure-city">Departure City:</label>
-        <input type="text" id="departure-city" name="departureCity" required>
-      </div>
-      <div class="form-group">
-        <label for="destination-city">Destination City:</label>
-        <input type="text" id="destination-city" name="destinationCity" required>
-      </div>
-      <div class="form-group">
-        <label for="distance">Distance (Km):</label>
-        <input type="number" id="distance" name="distance" required>
-      </div>
-      <div class="form-group">
-        <label for="journey-date">Journey Date:</label>
-        <input type="text" id="journey-date" name="journeyDate" placeholder="DD/MM/YYYY" required>
-      </div>
-      <div class="form-group">
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" required>
-      </div>
-      <div class="form-group">
-        <label for="gender">Gender:</label>
-        <select id="gender" name="gender" required>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
-      <button type="submit">Book Ticket</button>
-    </form>
-    <div id="ticket-info" class="ticket-info" style="display: none;">
-      <h2>Your Ticket Details:</h2>
-      <p id="ticket-details"></p>
-      <button id="print-ticket-btn">Print Ticket</button>
     </div>
+    <div class="app-content">
+      <div class="app-sidebar">
+        <a href="#" class="app-sidebar-link active">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="inbox"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+        </a>
+        <a href="#" class="app-sidebar-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="users"><path d="M17.0001 13.5a3.5 3.5 0 1 0-7 0 3.5 3.5 0 0 0 7 0zM12.0001 10.5c3.3137 0 6-2.6863 6-6s-2.6863-6-6-6-6 2.6863-6 6 2.6863 6 6 6z"/><path d="M19.7596 15.7826c-1.1279-1.4987-2.9065-2.1826-3.7596-2.2826v1.5c0 1.3183-.8817 2.501-2.2404 3.2777-.3514.2251-.5596.6062-.5596 1.0223h6c0-.4936-.2689-.9205-.6664-1.1934z"/><path d="M9.2403 15.7826c-1.1279 1.4987-2.9065 2.1826-3.7596 2.2826v-1.5c0-1.3183-.8817-2.501-2.2403-3.2777C2.3494 14.2801 2 13.899 2 13.4829h6c0 .4936.2689.9205.6664 1.1934z"/></svg>
+        </a>
+        <a href="#" class="app-sidebar-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="bar-chart-2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        </a>
+      </div>
+      <div class="page-content">
+        <div class="container">
+          <div class="card">
+            <div class="card-header">
+              <h2>Book Your Railway Ticket</h2>
+            </div>
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="departure">Departure:</label>
+                  <input type="text" id="departure" name="departure" placeholder="Enter Departure City">
+                </div>
+                <div class="form-group">
+                  <label for="destination">Destination:</label>
+                  <input type="text" id="destination" name="destination" placeholder="Enter Destination City">
+                </div>
+                <div class="form-group">
+                  <label for="date">Date:</label>
+                  <input type="date" id="date" name="date">
+                </div>
+                <div class="form-group">
+                  <label for="passenger-name">Passenger Name:</label>
+                  <input type="text" id="passenger-name" name="passenger-name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone:</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-group">
+                  <button type="submit">Book Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="app-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="contact-info">
+            <p>Contact Us: +123456789</p>
+            <p>Email: info@railwaybooking.com</p>
+            <p>Instagram: @example</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 Railway Ticket Booking. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
   </div>
-
-  <script src="script.js"></script>
 </body>
-
 </html>

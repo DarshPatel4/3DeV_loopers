@@ -1,85 +1,195 @@
+/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7d8da1;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  background-color: #7380ec;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.app-header-left {
+  display: flex;
+  align-items: center;
+}
+
+.app-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #ff4edc;
+  border-radius: 50%;
+}
+
+.app-name {
+  margin-left: 10px;
+}
+
+.app-header-right .mode-switch {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.app-content {
+  flex: 1;
+  display: flex;
+}
+
+.app-sidebar {
+  background-color: #ff7782;
+  color: #ffffff;
+  min-width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-sidebar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 0;
+  transition: all 0.3s ease;
+}
+
+.app-sidebar a:hover {
+  background-color: #ffd92c;
+}
+
+.app-sidebar-link svg {
+  width: 24px;
+  height: 24px;
+}
+
+.page-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #41f1b6;
+  color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.form-group button {
+  background-color: #7380ec;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #495057;
+}
+
+@media (max-width: 768px) {
+  .app-sidebar {
+    display: none;
   }
-  
-  .container {
-    max-width: 500px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  .page-content {
+    padding: 20px 10px;
   }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-    color: #555;
-  }
-  
-  input[type="text"],
-  input[type="tel"],
-  input[type="number"],
-  select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-  select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23333'%3E%3Cpath d='M10 15.5l-7-7 1.5-1.5 5.5 5.5 5.5-5.5 1.5 1.5-7 7z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-  }
-  
-  button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
-  button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-  }
-  
-  .ticket-info {
-    border-top: 2px dashed #ccc;
-    padding-top: 20px;
-  }
-  
-  .ticket-info p {
-    margin: 0;
-  }
-  
-  .ticket-info h2 {
-    margin-top: 20px;
-    color: #333;
-  }
-  
+}
+
+
+/* Footer */
+.app-footer {
+  background-color: #7380ec;
+  color: #ffffff;
+  padding: 30px 0;
+  text-align: center; /* Align content in the center */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center; /* Align items in the center horizontally */
+  align-items: center; /* Align items in the center vertically */
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.contact-info {
+  margin-top: 20px; /* Add margin for spacing */
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-info p:first-child {
+  margin-top: 0;
+}
+
+.contact-info p:last-child {
+  margin-bottom: 0;
+}
+
+/* Copyright */
+.copyright {
+  margin-top: 20px;
+}
